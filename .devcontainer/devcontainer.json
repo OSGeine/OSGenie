@@ -24,7 +24,7 @@
 	},
 	"remoteEnv": {
 		"autoRead": "true",
-		"PREFIX": "/",
+		"PREFIX": "!",
 		"MODE": "private"
 	 }
 
