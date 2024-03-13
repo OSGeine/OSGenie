@@ -36,16 +36,14 @@ let quranSurahHandler = async (m, { conn }) => {
     let translatedTafsirUrdu = await translate(json.data.tafsir.id, { to: 'ur', autoCorrect: true });
 
     // Translate tafsir from Bahasa Indonesia to English
-    let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'en', autoCorrect: true });
+    let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'ar', autoCorrect: true });
 
     let quranSurah = `
-🕌 *Quran: The Holy Book*\n
-📜 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*\n
-Type: ${json.data.type.en}\n
-Number of verses: ${json.data.ayahCount}\n
-🔮 *Explanation (Urdu):*\n
-${translatedTafsirUrdu.text}\n
-🔮 *Explanation (English):*\n
+🕌 *القرآن الكريم:*\n
+📜 *سورة ${json.data.number}: ${json.data.asma.ar.long}*\n
+نزلت في ${json.data.type.ar}\n
+عدد الايات: ${json.data.ayahCount}\n
+🔮 *التوضيح (العربية):*
 ${translatedTafsirEnglish.text}`;
 
     m.reply(quranSurah);
