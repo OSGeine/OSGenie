@@ -8,19 +8,19 @@ let handler = async (m, {conn, usedPrefix}) => {
 
     var wealth = 'Broke😭'
      if (`${user.bank}`           <= 3000){
-            wealth = 'Broke😭'
+            wealth = 'Broke 😭'
       } else if (`${user.bank}`   <= 6000){
-            wealth = 'Poor😢'
+            wealth = 'Poor 😢'
         } else if (`${user.bank}` <= 100000){
-            wealth = 'Average💸'
+            wealth = 'Average 💸'
         } else if (`${user.bank}` <= 1000000){
-            wealth = 'Rich💸💰'
+            wealth = 'Rich 💸💰'
         } else if (`${user.bank}` <= 10000000){
-            wealth = 'Millionaire🤑'
+            wealth = 'Millionaire 🤑'
         } else if (`${user.bank}` <= 1000000000){
-            wealth = 'Multi-Millionaire🤑'
+            wealth = 'Multi-Millionaire 🤑🤑'
         } else if (`${user.bank}` <= 10000000000){
-            wealth = 'Billionaire🤑🤑'
+            wealth = 'Billionaire 🤑🤑🤑'
         }    
     
     conn.reply(m.chat, `🏦 *Bank | ${username}*
