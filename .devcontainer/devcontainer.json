@@ -24,8 +24,9 @@
 	},
 	"remoteEnv": {
 		"autoRead": "true",
-		"PREFIX": "!",
-		"MODE": "private"
+		"PREFIX": "/",
+		"MODE": "private",
+		"REMOVEBG_KEY": "YFGrdcAqyDdEYav5gbrL3B8Q"
 	 }
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
