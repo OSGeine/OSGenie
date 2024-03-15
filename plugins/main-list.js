@@ -213,7 +213,8 @@ _Economy features are under maintenance now_
       lkr = `
 ⭑┏┫⦀⦙ Logo Menu ⦙⦀┣┓⭑
 
-_Logo features are under maintenance now_
+» _${usedPrefix}logo_
+» _${usedPrefix}logo list_
 
 ⭑┗┫⦀⦙ Logo Menu ⦙⦀┣┛⭑`; // 
       break;

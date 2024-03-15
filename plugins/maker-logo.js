@@ -1,110 +1,320 @@
-let handler = async (m, { conn, args, text, usedPrefix, command }) => {
-	let tee = `✳️ Enter a short text\n\n📌 Example  : *${usedPrefix + command}* GURU`
-	let too = `✳️ Separate the text with a *+* \n\n📌 Example : \n*${usedPrefix + command}* GURU *+* BOT`
-	
-	m.react(rwait);
-	
-	let type = command.toLowerCase();
-	
-	switch (type) {
-	  case 'gfx1':
-		if (!text) throw tee;
-		let chut = `https://api.caliph.biz.id/api/kaneki?nama=${encodeURIComponent(text)}&apikey=caliphkey`;
-		conn.sendFile(m.chat, chut, 'logo.png', `✅ Result`, m);
-		m.react(done);
-		break;
-		
-	  case 'gfx2': 
-		if (!text) throw too;
-		if (!text.includes('+')) throw too;
-		let [a, b] = text.split('+');
-		let loda = `https://api.caliph.biz.id/api/girlneko?nama=${encodeURIComponent(a.trim())}&nama2=${encodeURIComponent(b.trim())}&apikey=caliphkey`;
-		conn.sendFile(m.chat, loda, 'logo.png', `✅ Result`, m);
-		
-		m.react(done);
-		break;
-		
-	  case 'gfx3':
-		if (!text) throw tee;
-		let cp = `https://api.caliph.biz.id/api/rem?nama=${encodeURIComponent(text.trim())}&apikey=caliphkey`;
-		conn.sendFile(m.chat, cp, 'logo.png', `✅ Result`, m);
-		m.react(done);
-		break;
-		
-	  case 'gfx4': 
-		if (!text) throw tee;
-		let gandu = `https://api.caliph.biz.id/api/textpro/matrix?text=${encodeURIComponent(text)}&apikey=caliphkey`;
-		conn.sendFile(m.chat, gandu, 'logo.png', `✅ Result`, m);
-		m.react(done);
-		break;
-		case 'gfx5':
-    if (!text) throw tee
-    const apiUrll = `https://api.lolhuman.xyz/api/textprome/jokerlogo?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
-    conn.sendFile(m.chat, apiUrll, 'logo.png', '✅ Result', m);
-    m.react('✅');
-    break;
+import * as mumaker from "mumaker";
+let handler = async (m, { conn, text, args, usedPrefix, command }) => {
+    // m.reply(
+    //     "Hello, this is an experimental script that will be developed by Dr.Osman later !"
+    // );
+    if (!text) {
+        m.reply(
+            `📜 To use this command: \n\n ${usedPrefix}makelogo type Your_Text \n\n 📌 *Example:* ${usedPrefix}makelogo batman One_Two \n\n ❗ *Note:* Use "_" to separate words`
+        );
+        m.react("❎");
+    }
+    let types = [
+        "sliced",
+        "batman",
+        "thunder",
+        "magma",
+        "glitch",
+        "demon",
+        "frozen",
+        "ice",
+        "typography",
+        "foggy",
+        "stone",
+        "bear",
+        "forest",
+        "burger",
+        "dragon",
+        "pokemon",
+        "natural",
+        "shadow",
+        "flowers",
+        "wet_glass",
+        "hacker",
+        "3d_castle",
+        "naruto",
+        "quotes_natural",
+        "birth_day"
+    ];
+    let newArray = types.map((element) => `» ${element}`);
+    let message = `${newArray.join("\n")}`;
+    if (text.toLowerCase() == "list") {
+        m.reply(`
+*Logo Types List*:
 
-	case 'gfx6': 
-	if (!text) throw too
-	if (!text.includes('+')) throw too  
-	let [c, d] = text.split`+`   
-	const apiUrl = `https://api.lolhuman.xyz/api/textprome2/lionlogo?apikey=${lolkeysapi}&text1=${encodeURIComponent(c)}&text2=${encodeURIComponent(d)}`
-	conn.sendFile(m.chat, apiUrl, 'logo.png', `✅ Result`, m)
-	m.react(done)
-	break 
-	case 'gfx7': 
-	if (!text) throw too;
-	if (!text.includes('+')) throw too;
-	let [e, f] = text.split('+');
-	let oda = `https://api.lolhuman.xyz/api/photooxy2/battlefield4?apikey=${lolkeysapi}&text1=${encodeURIComponent(e.trim())}&text2=${encodeURIComponent(f.trim())}`;
-	conn.sendFile(m.chat, oda, 'logo.png', `✅ Result`, m);
-	
-	m.react(done);
-	break 
-	case 'gfx8': 
-	if (!text) throw tee;
-	let rand = `https://api.lolhuman.xyz/api/ephoto1/anonymhacker?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
-	conn.sendFile(m.chat, rand, 'logo.png', `✅ Result`, m);
-	m.react(done);
-	break;
-	case 'gfx9': 
-	if (!text) throw tee;
-	let randi = `https://api.lolhuman.xyz/api/ephoto1/avatarlolnew?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
-	conn.sendFile(m.chat, randi, 'logo.png', `✅ Result`, m);
-	m.react(done);
-	break;
-	case 'gfx10': 
-	if (!text) throw tee;
-	let randu = `https://api.lolhuman.xyz/api/ephoto1/avatardota?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
-	conn.sendFile(m.chat, randu, 'logo.png', `✅ Result`, m);
-	m.react(done);
-	break;
-	case 'gfx11': 
-	if (!text) throw too;
-	if (!text.includes('+')) throw too;
-	let [g, h] = text.split('+');
-	let od = `https://api.lolhuman.xyz/api/ephoto2/codwarzone?apikey=${lolkeysapi}&text1=${encodeURIComponent(g.trim())}&text2=${encodeURIComponent(h.trim())}`;
-	conn.sendFile(m.chat, od, 'logo.png', `✅ Result`, m);
-	
-	m.react(done);
-	break 
-	case 'gfx12': 
-	if (!text) throw tee;
-	let rr = `https://api.lolhuman.xyz/api/ephoto1/freefire?apikey=${lolkeysapi}&text=${encodeURIComponent(text)}`;
-	conn.sendFile(m.chat, rr, 'logo.png', `✅ Result`, m);
-	m.react(done);
-	break;
+${message}`);
+        m.react("📃");
+    }
+    if (args.length > 1) {
+        let type = args[0].toLowerCase();
+        let logoText = args[1].replace("_", " ");
+        m.react("🕛");
+        if (types.includes(type)) {
+            let libLink;
+            let library;
+            switch (type) {
+                case "sliced":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html";
+                    break;
+                case "batman":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/make-a-batman-logo-online-free-1066.html";
+                    break;
+                case "thunder":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-thunder-text-effect-online-881.html";
+                    break;
+                case "magma":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-a-magma-hot-text-effect-online-1030.html";
+                    break;
+                case "glitch":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-impressive-glitch-text-effects-online-1027.html";
+                    break;
+                case "demon":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-green-horror-style-text-effect-online-1036.html";
+                    break;
+                case "frozen":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-realistic-3d-text-effect-frozen-winter-1099.html";
+                    break;
+                case "ice":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/ice-cold-text-effect-862.html";
+                    break;
+                case "typography":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-artistic-typography-online-1086.html";
+                    break;
+                case "foggy":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/write-text-on-foggy-window-online-free-1015.html";
+                    break;
+                case "stone":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html";
+                    break;
+                case "bear":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html";
+                    break;
+                case "forest":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/double-exposure-text-effect-black-white-976.html";
+                    break;
+                case "burger":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-burger-3d-text-effect-1111.html";
+                    break;
+                case "dragon":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-3d-dragon-scale-text-effect-online-1127.html";
+                    break;
+                case "pokemon":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-pokemon-logo-style-text-effect-online-1134.html";
+                    break;
+                case "natural":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/natural-leaves-text-effect-931.html";
+                    break;
+                case "shadow":
+                    library = "textpro";
+                    libLink =
+                        "https://textpro.me/create-a-gradient-text-shadow-effect-online-1141.html";
+                    break;
+                case "flowers":
+                    library = "photooxy";
+                    libLink =
+                        "https://photooxy.com/logo-and-text-effects/make-nature-3d-text-effects-364.html";
+                    break;
+                case "wet_glass":
+                    library = "ephoto";
+                    libLink =
+                        "https://en.ephoto360.com/write-text-on-wet-glass-online-589.html";
+                    break;
+                case "hacker":
+                    library = "ephoto";
+                    libLink =
+                        "https://en.ephoto360.com/create-anonymous-hacker-avatars-cyan-neon-677.html";
+                    break;
+                case "3d_castle":
+                    library = "ephoto";
+                    libLink =
+                        "https://en.ephoto360.com/create-a-3d-castle-pop-out-mobile-photo-effect-786.html";
+                    break;
+                case "naruto":
+                    library = "ephoto";
+                    libLink =
+                        "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
+                    break;
+                case "birth_day":
+                    library = "ephoto";
+                    libLink =
+                        "https://en.ephoto360.com/write-name-on-red-rose-birthday-cake-images-462.html";
+                    break;
+                case "quotes_natural":
+                    library = "ephoto_quota";
+                    libLink =
+                        "https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html";
+                    break;
+            }
+            switch (library) {
+                case "textpro":
+                    await mumaker
+                        .textpro(libLink, [`${logoText}`])
+                        .then((data) =>
+                            conn.sendMessage(m.chat, {
+                                image: { url: `${data.image}` },
+                                caption: "✅ Done",
+                            })
+                        )
+                        .catch((err) => m.reply(err));
+                    m.react("✅");
 
-	  default:
-	} 
-  };
-  
-  handler.help = ['gfx1', 'gfx2', 'gfx3', 'gfx4', 'gfx5', 'gfx6', 'gfx7', 'gfx8', 'gfx9', 'gfx10', 'gfx11', 'gfx12'];
-  handler.tags = ['maker'];
-  handler.command = /^(gfx1|gfx2|gfx3|gfx4|gfx5|gfx6|gfx7|gfx8|gfx9|gfx10|gfx11|gfx12)$/i;
-  handler.diamond = false;
-  
-  export default handler;
-  
+                    break;
+                case "photooxy":
+                    await mumaker
+                        .photooxy(libLink, [`${logoText}`])
+                        .then((data) =>
+                            conn.sendMessage(m.chat, {
+                                image: { url: `${data.image}` },
+                                caption: "✅ Done",
+                            })
+                        )
+                        .catch((err) => m.reply(err));
+                    m.react("✅");
 
-  
+                    break;
+                case "ephoto":
+                    await mumaker
+                        .ephoto(libLink, [`${logoText}`])
+                        .then((data) =>
+                            conn.sendMessage(m.chat, {
+                                image: { url: `${data.image}` },
+                                caption: "✅ Done",
+                            })
+                        )
+                        .catch((err) => m.reply(err));
+                    m.react("✅");
+                    break;
+                case "ephoto_quota":
+                    const url = "https://api.quotable.io/random";
+                    let getQuote = () => {
+                        fetch(url)
+                            .then((data) => data.json())
+                            .then((item) => {
+                                mumaker
+                                    .ephoto(libLink, [
+                                        `${logoText}`,
+                                        `${item.content}`,
+                                    ])
+                                    .then((data) =>
+                                        conn.sendMessage(m.chat, {
+                                            image: { url: `${data.image}` },
+                                            caption: "✅ Done",
+                                        })
+                                    )
+                                    .catch((err) => m.reply(err));
+                                m.react("✅");
+                            });
+                    };
+                    getQuote();
+                    break;
+            }
+            // let res = await mumaker
+            //     .textpro(libLink, [`${logoText}`])
+            //     .then((data) =>
+            //         conn.sendMessage(m.chat, {
+            //             image: { url: `${data.image}` },
+            //             caption: "✅ Done this is your logo",
+            //         })
+            //     )
+            //     .catch((err) => m.reply(err));
+            // m.react("✅");
+        }
+    }
+};
+
+handler.help = ["logo <Type> <Name>"];
+handler.tags = ["logo"];
+handler.command = /^(logo)$/i;
+
+export default handler;
+/* 
+
+https://textpro.me/create-light-glow-sliced-text-effect-online-1068.html
+sliced
+
+https://textpro.me/make-a-batman-logo-online-free-1066.html
+batman
+
+https://textpro.me/create-thunder-text-effect-online-881.html
+thunder
+
+https://textpro.me/create-a-magma-hot-text-effect-online-1030.html
+magma
+
+https://textpro.me/create-impressive-glitch-text-effects-online-1027.html
+glitch
+
+https://textpro.me/create-green-horror-style-text-effect-online-1036.html
+demon
+
+https://textpro.me/create-realistic-3d-text-effect-frozen-winter-1099.html
+frozen
+
+https://textpro.me/ice-cold-text-effect-862.html
+ice
+
+https://textpro.me/create-artistic-typography-online-1086.html
+typography
+
+https://textpro.me/write-text-on-foggy-window-online-free-1015.html
+foggy
+
+https://textpro.me/3d-stone-cracked-cool-text-effect-1029.html
+stone
+
+https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
+bear
+
+https://textpro.me/double-exposure-text-effect-black-white-976.html
+forest
+
+https://textpro.me/create-burger-3d-text-effect-1111.html
+burger
+
+https://textpro.me/create-3d-dragon-scale-text-effect-online-1127.html
+dragon
+
+https://textpro.me/create-pokemon-logo-style-text-effect-online-1134.html
+pokemon
+
+https://textpro.me/natural-leaves-text-effect-931.html
+natural
+
+https://textpro.me/create-a-gradient-text-shadow-effect-online-1141.html
+shadow
+
+*/
