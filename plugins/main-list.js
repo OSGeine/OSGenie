@@ -188,14 +188,12 @@ _Economy features are under maintenance now_
 » _${usedPrefix}translate_
 » _${usedPrefix}tourl_
 » _${usedPrefix}wikipedia_
-» _${usedPrefix}nowa_
 » _${usedPrefix}qrmaker_
 » _${usedPrefix}readqr_
 » _${usedPrefix}fancy_
 » _${usedPrefix}weather_
 » _${usedPrefix}siri_
 » _${usedPrefix}alexa_
-» _${usedPrefix}dalle_
 » _${usedPrefix}tocartoon_
 » _${usedPrefix}quote_
 » _${usedPrefix}technews_
