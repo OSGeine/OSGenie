@@ -5,9 +5,9 @@ let handler = async (m, { conn, text, participants, isAdmin, isOwner, groupMetad
 
     ${text ? `*Message : ${text}*` : ''}
 
-*┏━━━━⊱ ◈ Mentions: ${participants.length} ◈ ⊰━━━━┓*\n\n`
+*┏━━━⊱ ◈ Mentions: ${participants.length} ◈ ⊰━━━┓*\n\n`
         + users.map(v => '⟫ @' + v.replace(/@.+/, '')).join`\n`
-        + '\n\n *┗━━━━━⊱ OSGenieᴮᴼᵀ  ⊰━━━━━┛*', null, {
+        + '\n\n *┗━━━━⊱ OSGenieᴮᴼᵀ  ⊰━━━━┛*', null, {
         mentions: users
     })
 }
