@@ -33,8 +33,6 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         "hacker",
         "3d_castle",
         "naruto",
-        "quotes_natural",
-        "birth_day"
     ];
     let newArray = types.map((element) => `» ${element}`);
     let message = `${newArray.join("\n")}`;
@@ -168,16 +166,6 @@ ${message}`);
                     libLink =
                         "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
                     break;
-                case "birth_day":
-                    library = "ephoto";
-                    libLink =
-                        "https://en.ephoto360.com/write-name-on-red-rose-birthday-cake-images-462.html";
-                    break;
-                case "quotes_natural":
-                    library = "ephoto_quota";
-                    libLink =
-                        "https://en.ephoto360.com/create-typography-status-quotes-images-online-for-free-452.html";
-                    break;
             }
             switch (library) {
                 case "textpro":
@@ -217,29 +205,6 @@ ${message}`);
                         )
                         .catch((err) => m.reply(err));
                     m.react("✅");
-                    break;
-                case "ephoto_quota":
-                    const url = "https://api.quotable.io/random";
-                    let getQuote = () => {
-                        fetch(url)
-                            .then((data) => data.json())
-                            .then((item) => {
-                                mumaker
-                                    .ephoto(libLink, [
-                                        `${logoText}`,
-                                        `${item.content}`,
-                                    ])
-                                    .then((data) =>
-                                        conn.sendMessage(m.chat, {
-                                            image: { url: `${data.image}` },
-                                            caption: "✅ Done",
-                                        })
-                                    )
-                                    .catch((err) => m.reply(err));
-                                m.react("✅");
-                            });
-                    };
-                    getQuote();
                     break;
             }
             // let res = await mumaker
