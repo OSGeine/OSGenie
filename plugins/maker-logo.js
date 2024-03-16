@@ -5,7 +5,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     // );
     if (!text) {
         m.reply(
-            `📜 To use this command: \n\n ${usedPrefix}makelogo type Your_Text \n\n 📌 *Example:* ${usedPrefix}makelogo batman One_Two \n\n ❗ *Note:* Use "_" to separate words`
+            `📜 To use this command: \n\n ${usedPrefix}${command} type Your_Text \n\n 📌 *Example:* ${usedPrefix}${command} batman One_Two \n\n ❗ *Note:* Use "_" to separate words`
         );
         m.react("❎");
     }
@@ -256,7 +256,7 @@ ${message}`);
     }
 };
 
-handler.help = ["logo <Type> <Name>"];
+handler.help = ["logo"];
 handler.tags = ["logo"];
 handler.command = /^(logo)$/i;
 
