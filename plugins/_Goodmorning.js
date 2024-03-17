@@ -19,7 +19,7 @@ function getRandomMorning() {
     return greetings[randomIndex];
 }
 
-cron.schedule('0 7 * * *', () => {
+cron.schedule('0 8 * * *', () => {
     const randomMorning = getRandomMorning();
     conn.sendMessage(targetGroupId, {
         text: randomMorning
