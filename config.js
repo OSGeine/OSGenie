@@ -70,7 +70,7 @@ global.error = '❌'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.maxwarn = '3' 
+global.maxwarn = '5' 
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
