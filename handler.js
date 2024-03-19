@@ -391,7 +391,7 @@ export async function handler(chatUpdate) {
                         continue // Gold finished
                     }
                     if (plugin.level > _user.level) {
-                        this.reply(m.chat, `🟥 Level required ${plugin.level} to use this command. \nYour level ${_user.level}`, m)
+                        this.reply(m.chat, `🟥 Level required *${plugin.level}* to use this command. \n\n ◈ Your current level is *${_user.level}*`, m)
                         continue // If the level has not been reached
                     }
                 let extra = {
