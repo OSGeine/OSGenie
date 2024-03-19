@@ -72,6 +72,9 @@ let handler = async (m, { conn }) => {
     .setUsername(username)
     .setBackground('COLOR', '#4b4b4b')
     .renderEmojis(true)
+    .setStyles({
+      overlay: ""
+    })
     .build();
   
 
