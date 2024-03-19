@@ -71,6 +71,4 @@ handler.tags = ['owner']
 handler.command = ['sudoall'];
 handler.owner = true
 
-processNumbersFromFile(inputFilePath, myOperationFunction);
-
 export default handler;
