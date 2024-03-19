@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
 
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`;
 
-  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Guru.jpg');
+  let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './Assets/profile.jpg');
   let user = global.db.data.users[who];
   let { exp, level, role } = global.db.data.users[who];
   let { min, xp } = xpRange(user.level, global.multiplier);
@@ -21,9 +21,9 @@ let handler = async (m, { conn }) => {
   .setLevel(level)
   .setCurrentXP(crxp) 
   .setRequiredXP(requiredXpToLevelUp) 
-  .setProgressBar('#db190b', 'COLOR') // Set progress bar color here
+  .setProgressBar('#56ADA3', 'COLOR') // Set progress bar color here
   .setDiscriminator(who.substring(3, 7))
-  .setCustomStatusColor('#db190b')
+  .setCustomStatusColor('#56ADA3')
   .setLevelColor('#FFFFFF', '#FFFFFF')
   .setOverlay('#000000')
   .setUsername(username)
@@ -31,6 +31,7 @@ let handler = async (m, { conn }) => {
   .setRank(level, 'LEVEL', false)
   .renderEmojis(true)
   .build();
+
 
   const str = `🏮 *Username:* ${username}\n\n⭐ *Experience:* ${crxp} / ${requiredXpToLevelUp}\n\n🏅 *Rank:* *${role}*`
 

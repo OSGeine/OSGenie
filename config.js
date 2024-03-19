@@ -48,7 +48,7 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'The OSGenie-BOT'
+global.botname = 'The OSGenieᴮᴼᵀ'
 global.premium = 'true'
 global.packname = 'OSGenie┃ᴮᴼᵀ' 
 global.author = '@Unknown' 
@@ -69,7 +69,7 @@ global.done = '✅'
 global.error = '❌' 
 global.xmoji = '🔥' 
 
-global.multiplier = 69 
+global.multiplier = 60 
 global.maxwarn = '5' 
 
 let file = fileURLToPath(import.meta.url)

@@ -10,10 +10,12 @@ export async function before(m, { conn }) {
         user.level++
     user.role = global.rpg.role(user.level).name
     if (before !== user.level) {
-        m.reply(m.sender, `
-*▢ LEVEL UP*
+        m.reply(`
+*▢ LEVEL UP* 🥳
 
- *${before}* ‣  *${user.level}*
+ Before: *${before}*
+ After: *${user.level}*
+
  ROLE : *${user.role}*
 	`.trim())
     }

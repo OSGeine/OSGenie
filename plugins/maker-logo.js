@@ -224,6 +224,7 @@ ${message}`);
 handler.help = ["logo"];
 handler.tags = ["logo"];
 handler.command = /^(logo)$/i;
+handler.level = 8
 
 export default handler;
 /* 
