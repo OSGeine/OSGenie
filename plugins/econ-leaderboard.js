@@ -2,6 +2,7 @@ import { areJidsSameUser } from '@whiskeysockets/baileys';
 import { createHash } from 'crypto';
 import PhoneNumber from 'awesome-phonenumber';
 import { canLevelUp, xpRange } from '../lib/levelling.js';
+import { Font, LeaderboardBuilder } from "canvacord";
 
 let handler = async (m, { conn, args, usedPrefix, participants }) => {
   let users = Object.entries(global.db.data.users).map(([key, value]) => {
@@ -40,28 +41,97 @@ let handler = async (m, { conn, args, usedPrefix, participants }) => {
   let usersRank = sortedRank.map(enumGetKey);
 
   let len = args[0] && args[0].length > 0 ? Math.min(50, Math.max(parseInt(args[0]), 5)) : Math.min(10, sortedExp.length);
-  let text = `
-👑 *GLOBAL LEADERBOARD* 👑
+//   let text = `
+// 👑 *GLOBAL LEADERBOARD* 👑
 
-${sortedExp.slice(0, len).map(({ jid, exp, credit, level, bank, role }, i) => {
-  let totalgold = users.find(u => u.jid === jid).credit + users.find(u => u.jid === jid).bank;
+// ${sortedExp.slice(0, len).map(({ jid, exp, level, role }, i) => {
+//   // let totalgold = users.find(u => u.jid === jid).credit + users.find(u => u.jid === jid).bank;
+//   let user = global.db.data.users[jid];
+//   let username = user.name;
+//   let pp = conn.profilePictureUrl(user, 'image').catch(_ => './Assets/profile.jpg');
+//   return `*#${i + 1}.*
+// *👑 Username:* ${username}
+// *🌟 Experience:* ${exp}
+// *🏆 Rank:* ${role}
+// *✨ Level:* ${level}
+// `;
+// }).join('\n\n\n')}
+// *You are at ${usersExp.indexOf(m.sender) + 1} out of total ${usersExp.length} members*`
+// .trim();
+
+const allUsers = sortedExp.slice(0, len).map(({ jid, exp, level, role }, i) => {
   let user = global.db.data.users[jid];
   let username = user.name;
-  return `*#${i + 1}.*
-*👑 Username:* ${username}
-*🌟 Experience:* ${exp}
-*🏆 Rank:* ${role}
-*✨ Level:* ${level}
-*👛 Wallet:* ${credit}
-*🏦 Bank:* ${bank}
-*💰 Gold:* ${totalgold}`;
-}).join('\n\n\n')}
-*You are at ${usersExp.indexOf(m.sender) + 1} out of total ${usersExp.length} members*`
-.trim();
-  
-  conn.reply(m.chat, text, m, {
-    mentions: [...usersExp.slice(0, len), ...usersLevel.slice(0, len), ...usersLim.slice(0, len), ...usersBank.slice(0, len), ...usersRank.slice(0, len)].filter(v => !participants.some(p => areJidsSameUser(v, p.id)))
-  });
+  let pp = './Assets/profile.jpg';
+  let roleId
+  switch (role) {
+    case "Semi Junior":
+      roleId = 0
+      break;
+    case "Junior":
+      roleId = 1
+      break;
+    case "Semi Senior":
+      roleId = 2
+      break;
+    case "Senior":
+      roleId = 3
+      break;
+    case "Trainee Doctor":
+      roleId = 4
+      break;
+    case "General Practitioner":
+      roleId = 5
+      break;
+    case "Resident Doctor":
+      roleId = 6
+      break;
+    case "Assistant Specialist":
+      roleId = 7
+      break;
+    case "Specialist":
+      roleId = 8
+      break;
+    case "Senior Specialist":
+      roleId = 9
+      break;
+    case "Consultant":
+      roleId = 10
+      break;
+    case "Senior Consultant":
+      roleId = 11
+      break;
+    case "Prof":
+      roleId = 12
+      break;
+  }
+  return {
+    avatar : pp,
+    rank: i + 1,
+    username: `#${jid.substring(3, 7)}`,
+    displayName: username,
+    xp: exp,
+    level: level
+  };
+});
+
+Font.loadDefault();
+
+// generate image
+const lb = new LeaderboardBuilder()
+.setPlayers(allUsers)
+.setBackground("./Assets/leaderboard-bg.jpg");
+lb.setVariant("default");
+
+const image = await lb.build({ format: "png" });
+
+try {
+  conn.sendFile(m.chat, image, 'leaderboard.jpg', `*You are at ${usersExp.indexOf(m.sender) + 1} out of total ${usersExp.length} members*`, m, false, { mentions: [who] });
+  m.react('✅');
+} catch (error) {
+  console.error(error);
+}
+  console.log(allUsers)
 };
 
 handler.help = ['leaderboard'];
