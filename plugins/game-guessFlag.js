@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 let timeout = 120000
-let poin = 4999
+let poin = 500
 let handler = async (m, { conn, command, usedPrefix }) => {
     conn.tebakbendera = conn.tebakbendera ? conn.tebakbendera : {}
     let id = m.chat
@@ -27,6 +27,7 @@ Reward: ${poin} XP
 handler.help = ['guessflag']
 handler.tags = ['game']
 handler.command = /^guessflag/i
+handler.level = 4
 
 export default handler
 

@@ -57,7 +57,7 @@ ${arr.slice(6).join('')}
      conn.reply(m.chat, `⏳ *expecting partner*\nType the following command to accept
 ▢ *${usedPrefix + command} ${text}*
 
-🎁 Reward:  *4999 XP*`, m, {
+🎁 Reward:  *500 XP*`, m, {
             mentions: conn.parseMention(text)
         })
         
@@ -69,5 +69,5 @@ ${arr.slice(6).join('')}
 handler.help = ['tictactoe <tag number>']
 handler.tags = ['game']
 handler.command = ['tictactoe', 'ttc', 'ttt', 'xo']
-
+handler.level = 4
 export default handler
