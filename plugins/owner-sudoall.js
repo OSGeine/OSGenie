@@ -63,10 +63,12 @@ let handler = async (m, { conn }) => {
     const inputFilePath = 'number.txt';
     
     processNumbersFromFile(inputFilePath, myOperationFunction);
+    m.reply("Done ✅");
+
 }
 handler.help = ['sudoall']
 handler.tags = ['owner']
 handler.command = ['sudoall'];
-// handler.owner = true
+handler.owner = true
 
 export default handler;
