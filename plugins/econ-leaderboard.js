@@ -121,7 +121,7 @@ Font.loadDefault();
 const lb = new LeaderboardBuilder()
 .setPlayers(allUsers)
 .setBackground("./Assets/leaderboard-bg.jpg");
-lb.setVariant("default");
+lb.setVariant("horizontal");
 
 const image = await lb.build({ format: "png" });
 
