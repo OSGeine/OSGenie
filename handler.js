@@ -225,7 +225,9 @@ export async function handler(chatUpdate) {
         
         if (m.isBaileys)
             return
-        m.exp += Math.ceil(Math.random() * 10)
+        
+        // XP Factor
+        m.exp += Math.ceil(Math.random() * 50)
 
         let usedPrefix
         let _user = global.db.data && global.db.data.users && global.db.data.users[m.sender]

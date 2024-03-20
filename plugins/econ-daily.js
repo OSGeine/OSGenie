@@ -1,4 +1,4 @@
-const free = 2000
+const free = 500
 const prem = 5000
 
 let handler = async (m, {conn, isPrems }) => {
