@@ -77,5 +77,5 @@ function pickRandom(list) {
 }
 
 handler.modes = modes
-handler.level = 4
+// handler.level = 4
 export default handler

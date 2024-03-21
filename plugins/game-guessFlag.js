@@ -27,7 +27,7 @@ Reward: ${poin} XP
 handler.help = ['guessflag']
 handler.tags = ['game']
 handler.command = /^guessflag/i
-handler.level = 4
+// handler.level = 4
 
 export default handler
 

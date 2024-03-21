@@ -154,5 +154,5 @@ Type *chess join* to join a waiting chess game.
 handler.help = ['chess [from to]', 'chess delete', 'chess join', 'chess start'];
 handler.tags = ['game'];
 handler.command = /^(chess|chatur)$/i;
-handler.level = 8
+// handler.level = 8
 export default handler;
