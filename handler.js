@@ -13,7 +13,10 @@ import path, {
 import {
     unwatchFile,
     watchFile,
-    readFileSync
+    readFileSync,
+    copyFile,
+    readFile,
+    writeFile
 } from "fs"
 import chalk from "chalk"
 import fetch from "node-fetch"
@@ -864,3 +867,30 @@ watchFile(file, async () => {
     console.log(chalk.redBright("Update handler.js"))
     if (global.reloadHandler) console.log(await global.reloadHandler())
 })
+
+// Function to copy contents of one file to another
+function copyFiles(source, target) {
+    readFile(source, 'utf8', (err, data) => {
+        if (err) {
+            console.error(`Error reading file ${source}: ${err}`);
+            return;
+        }
+
+        writeFile(target, data, (err) => {
+            if (err) {
+                console.error(`Error writing to file ${target}: ${err}`);
+                return;
+            }
+            console.log(`File ${source} copied to ${target}`);
+        });
+    });
+}
+
+// Watch for changes in database.json
+watchFile('database.json', (curr, prev) => {
+    // Copy contents of database.json to database-backup.txt
+    copyFiles('database.json', 'database-backup.txt');
+});
+
+// Initial copy of database.json to database-backup.txt
+copyFiles('database.json', 'database-backup.txt');
