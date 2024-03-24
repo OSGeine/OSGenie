@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 3461,
+      "exp": 3482,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
