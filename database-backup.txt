@@ -431,6 +431,24 @@
       "level": 0,
       "role": "Semi Junior",
       "autolevelup": true
+    },
+    "201015577904@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Dr. Majed A ElBakry",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
     }
   },
   "chats": {

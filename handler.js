@@ -881,7 +881,6 @@ function copyFiles(source, target) {
                 console.error(`Error writing to file ${target}: ${err}`);
                 return;
             }
-            console.log(`File ${source} copied to ${target}`);
         });
     });
 }
