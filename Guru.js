@@ -8,14 +8,14 @@ const _0x438c2c = _0xb9f9;
       if (_0x5a7bb3 === _0xebd623) {
         break;
       } else {
-        _0x34bbdd['push'](_0x34bbdd['shift']());
+        _0x34bbdd.push(_0x34bbdd.shift());
       }
     } catch (_0x4e567e) {
-      _0x34bbdd['push'](_0x34bbdd['shift']());
+      _0x34bbdd.push(_0x34bbdd.shift());
     }
   }
 })(_0xbb5b, 0x5d37c);
-process[_0x438c2c(0x1ae)]['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
+process[_0x438c2c(0x1ae)].NODE_TLS_REJECT_UNAUTHORIZED = '0';
 import './config.js';
 import { createRequire } from 'module';
 import _0x47c416, { join } from 'path';
@@ -24,7 +24,7 @@ import _0x3dce2c from './lib/tempclear.js';
 import _0x456c48 from 'axios';
 import { platform } from 'process';
 import _0x3c9962 from 'dotenv';
-global[_0x438c2c(0x19a)] = function filename(_0x574755 = import.meta['url'], _0xbd0800 = platform !== 'win32') {
+global[_0x438c2c(0x19a)] = function filename(_0x574755 = import.meta.url, _0xbd0800 = platform !== 'win32') {
   const _0x3ba730 = _0x438c2c;
   const _0x383df9 = {
     'zftHx': function (_0x2836d6, _0x197976) {
@@ -34,11 +34,11 @@ global[_0x438c2c(0x19a)] = function filename(_0x574755 = import.meta['url'], _0x
       return _0x3ca887(_0x1acd4a);
     }
   };
-  return _0xbd0800 ? /file:\/\/\//[_0x3ba730(0xc7)](_0x574755) ? _0x383df9['zftHx'](fileURLToPath, _0x574755) : _0x574755 : _0x383df9[_0x3ba730(0x12b)](pathToFileURL, _0x574755)[_0x3ba730(0x10c)]();
+  return _0xbd0800 ? /file:\/\/\//[_0x3ba730(0xc7)](_0x574755) ? fileURLToPath(_0x574755) : _0x574755 : _0x383df9[_0x3ba730(0x12b)](pathToFileURL, _0x574755)[_0x3ba730(0x10c)]();
 };
 global[_0x438c2c(0x179)] = function dirname(_0x186871) {
   const _0x2282aa = _0x438c2c;
-  return _0x47c416['dirname'](global[_0x2282aa(0x19a)](_0x186871, true));
+  return _0x47c416.dirname(global[_0x2282aa(0x19a)](_0x186871, true));
 };
 global[_0x438c2c(0xa2)] = function require(_0x23639e = import.meta[_0x438c2c(0x1aa)]) {
   const _0x5db17f = _0x438c2c;
@@ -87,7 +87,7 @@ import _0x4ae870 from 'readline';
 import { parsePhoneNumber } from 'libphonenumber-js';
 import _0x151900 from './lib/helper.js';
 import _0x523aca from 'emoji-regex';
-_0x3c9962['config']();
+_0x3c9962.config();
 async function main() {
   const _0x457a8d = _0x438c2c;
   const _0x3d694b = {
@@ -100,7 +100,7 @@ async function main() {
   };
   const _0x54abeb = process[_0x457a8d(0x1ae)][_0x457a8d(0x134)];
   if (!_0x54abeb) {
-    console['error'](_0x3d694b[_0x457a8d(0x155)]);
+    console.error(_0x3d694b[_0x457a8d(0x155)]);
     return;
   }
   try {
@@ -129,26 +129,26 @@ async function gandu() {
     'MfUQd': _0x5af112(0x190)
   };
   try {
-    if (_0xf18f0d['qGMql'] !== _0xf18f0d['qGMql']) {
+    if (false) {
       _0x3ad095[_0x5af112(0x156)] = _0x39d090[_0x5af112(0x14e)](_0x504e49[_0x5af112(0x198)](_0x19abf2[_0x5af112(0x156)])[_0x5af112(0x161)](([_0x5b29ed], [_0x1b2596]) => _0x5b29ed[_0x5af112(0xbf)](_0x1b2596)));
     } else {
       const _0x49ff8d = readFileSync(_0xf18f0d[_0x5af112(0x118)], _0xf18f0d[_0x5af112(0x1d7)]);
-      const _0x10ccc1 = JSON['parse'](_0x49ff8d);
-      const _0x17f6ab = _0x10ccc1['author'] && _0x10ccc1['author'][_0x5af112(0x148)];
+      const _0x10ccc1 = JSON.parse(_0x49ff8d);
+      const _0x17f6ab = _0x10ccc1.author && _0x10ccc1.author[_0x5af112(0x148)];
       if (!_0x17f6ab) {
         console[_0x5af112(0x8c)](_0xf18f0d[_0x5af112(0x1de)]);
         process[_0x5af112(0x183)](0x1);
       }
       const _0x56b45c = Buffer[_0x5af112(0x12d)](_0xf18f0d[_0x5af112(0x9d)], _0x5af112(0xb6))[_0x5af112(0x10c)]();
-      const _0x500b7b = Buffer[_0x5af112(0x12d)]('Q2hlYXAgQ29weSBPZiBHdXJ1IEJvdCBGb3VuZCAsIFBsZWFzZSBVc2UgdGhlIE9yaWdpbmFsIEd1cnUgQm90IEZyb20gaHR0cHM6Ly9naXRodWIuY29tL0d1cnUzMjIvR1VSVS1CT1QK', _0xf18f0d['OqnLQ'])[_0x5af112(0x10c)]();
-      const _0x2e8ee3 = Buffer[_0x5af112(0x12d)]('U2VjdXJpdHkgY2hlY2sgcGFzc2VkLCBUaGFua3MgRm9yIHVzaW5nIEd1cnUgTXVsdGlEZXZpY2U=', _0xf18f0d['OqnLQ'])[_0x5af112(0x10c)]();
+      const _0x500b7b = Buffer[_0x5af112(0x12d)]('Q2hlYXAgQ29weSBPZiBHdXJ1IEJvdCBGb3VuZCAsIFBsZWFzZSBVc2UgdGhlIE9yaWdpbmFsIEd1cnUgQm90IEZyb20gaHR0cHM6Ly9naXRodWIuY29tL0d1cnUzMjIvR1VSVS1CT1QK', 'base64')[_0x5af112(0x10c)]();
+      const _0x2e8ee3 = Buffer[_0x5af112(0x12d)]('U2VjdXJpdHkgY2hlY2sgcGFzc2VkLCBUaGFua3MgRm9yIHVzaW5nIEd1cnUgTXVsdGlEZXZpY2U=', 'base64')[_0x5af112(0x10c)]();
       if (_0x17f6ab && _0x17f6ab[_0x5af112(0xe0)]()[_0x5af112(0x12a)]() !== _0x56b45c[_0x5af112(0x12a)]()) {
-        console['log'](_0x500b7b);
-        process['exit'](0x1);
+        console.log(_0x500b7b);
+        process.exit(0x1);
       } else {
-        if (_0xf18f0d['lWviR'](_0xf18f0d[_0x5af112(0x147)], _0xf18f0d[_0x5af112(0x147)])) {
+        if (_0xf18f0d[_0x5af112(0x147)] === _0xf18f0d[_0x5af112(0x147)]) {
           console[_0x5af112(0x8c)]('' + _0x2e8ee3);
-          console[_0x5af112(0x8c)](_0x9f710a['bgBlack'](_0x9f710a[_0x5af112(0xed)](_0xf18f0d['qIjiw'])));
+          console[_0x5af112(0x8c)](_0x9f710a.bgBlack(_0x9f710a[_0x5af112(0xed)](_0xf18f0d.qIjiw)));
         } else {
           return _0xc90d41(_0x5d32c6);
         }
@@ -160,8 +160,8 @@ async function gandu() {
 }
 gandu();
 const pairingCode = !!global[_0x438c2c(0x19c)] || process[_0x438c2c(0x11a)][_0x438c2c(0x1ad)](_0x438c2c(0xac));
-const useMobile = process['argv'][_0x438c2c(0x1ad)](_0x438c2c(0xce));
-const useQr = process['argv']['includes']('--qr');
+const useMobile = process.argv[_0x438c2c(0x1ad)](_0x438c2c(0xce));
+const useQr = process.argv.includes('--qr');
 const useStore = true;
 const MAIN_LOGGER = _0x304ebc({
   'timestamp': () => ",\"time\":\"" + new Date()[_0x438c2c(0xbc)]() + "\""
@@ -181,8 +181,8 @@ setInterval(() => {
 }, 60000);
 const msgRetryCounterCache = new _0x48e9fe();
 const rl = _0x4ae870[_0x438c2c(0x199)]({
-  'input': process['stdin'],
-  'output': process['stdout']
+  'input': process.stdin,
+  'output': process.stdout
 });
 const question = _0x3f601d => new Promise(_0x4695d4 => rl[_0x438c2c(0xe7)](_0x3f601d, _0x4695d4));
 const {
@@ -191,10 +191,10 @@ const {
 const {
   chain
 } = _0x60ba0c;
-const PORT = process['env'][_0x438c2c(0xb5)] || process[_0x438c2c(0x1ae)][_0x438c2c(0xab)] || 0xbb8;
+const PORT = process.env[_0x438c2c(0xb5)] || process[_0x438c2c(0x1ae)][_0x438c2c(0xab)] || 0xbb8;
 protoType();
 serialize();
-global[_0x438c2c(0xdc)] = (_0x129b69, _0x5abb6b = '/', _0x2ff3e5 = {}, _0x22b84f) => (_0x129b69 in global['APIs'] ? global[_0x438c2c(0x1c0)][_0x129b69] : _0x129b69) + _0x5abb6b + (_0x2ff3e5 || _0x22b84f ? '?' + new URLSearchParams(Object[_0x438c2c(0x198)]({
+global[_0x438c2c(0xdc)] = (_0x129b69, _0x5abb6b = '/', _0x2ff3e5 = {}, _0x22b84f) => (_0x129b69 in global.APIs ? global[_0x438c2c(0x1c0)][_0x129b69] : _0x129b69) + _0x5abb6b + (_0x2ff3e5 || _0x22b84f ? '?' + new URLSearchParams(Object[_0x438c2c(0x198)]({
   ..._0x2ff3e5,
   ...(_0x22b84f ? {
     [_0x22b84f]: global[_0x438c2c(0x10b)][_0x129b69 in global[_0x438c2c(0x1c0)] ? global[_0x438c2c(0x1c0)][_0x129b69] : _0x129b69]
@@ -204,12 +204,12 @@ global[_0x438c2c(0x176)] = {
   'start': new Date()
 };
 const __dirname = global[_0x438c2c(0x179)](import.meta[_0x438c2c(0x1aa)]);
-global[_0x438c2c(0xcd)] = new Object(_0x59c958(process['argv']['slice'](0x2))['exitProcess'](false)['parse']());
-global[_0x438c2c(0xbe)] = new RegExp('^[' + (process[_0x438c2c(0x1ae)]['PREFIX'] || _0x438c2c(0xcb))[_0x438c2c(0x197)](/[|\\{}()[\]^$+*?.\-\^]/g, _0x438c2c(0xd2)) + ']');
-global[_0x438c2c(0xcd)]['db'] = process[_0x438c2c(0x1ae)][_0x438c2c(0xdf)];
-global['db'] = new Low(/https?:\/\//[_0x438c2c(0xc7)](opts['db'] || '') ? new _0x1794b4(opts['db']) : /mongodb(\+srv)?:\/\//i['test'](opts['db']) ? new MongoDB(opts['db']) : new JSONFile((opts['_'][0x0] ? opts['_'][0x0] + '_' : '') + 'database.json'));
-global['DATABASE'] = global['db'];
-global['loadDatabase'] = async function loadDatabase() {
+global[_0x438c2c(0xcd)] = new Object(_0x59c958(process.argv.slice(0x2)).exitProcess(false).parse());
+global[_0x438c2c(0xbe)] = new RegExp('^[' + (process[_0x438c2c(0x1ae)].PREFIX || _0x438c2c(0xcb))[_0x438c2c(0x197)](/[|\\{}()[\]^$+*?.\-\^]/g, _0x438c2c(0xd2)) + ']');
+global[_0x438c2c(0xcd)].db = process[_0x438c2c(0x1ae)][_0x438c2c(0xdf)];
+global.db = new Low(/https?:\/\//[_0x438c2c(0xc7)](opts.db || '') ? new _0x1794b4(opts.db) : /mongodb(\+srv)?:\/\//i.test(opts.db) ? new MongoDB(opts.db) : new JSONFile((opts._[0x0] ? opts._[0x0] + '_' : '') + 'database.json'));
+global.DATABASE = global.db;
+global.loadDatabase = async function loadDatabase() {
   const _0x40f217 = _0x438c2c;
   const _0x42ee1e = {
     'hfbqi': function (_0x9506da, _0x15fe0a) {
@@ -225,36 +225,36 @@ global['loadDatabase'] = async function loadDatabase() {
       return _0x3b0ec2(_0x11ba7b);
     }
   };
-  if (global['db'][_0x40f217(0x1b1)]) {
+  if (global.db[_0x40f217(0x1b1)]) {
     return new Promise(_0x11db04 => setInterval(async function () {
       const _0x5737f3 = _0x40f217;
-      if (!global['db']['READ']) {
+      if (!global.db.READ) {
         _0x42ee1e[_0x5737f3(0x9c)](clearInterval, this);
-        _0x42ee1e['hfbqi'](_0x11db04, _0x42ee1e[_0x5737f3(0x17a)](global['db'][_0x5737f3(0x192)], null) ? global['loadDatabase']() : global['db'][_0x5737f3(0x192)]);
+        _0x11db04(_0x42ee1e[_0x5737f3(0x17a)](global.db[_0x5737f3(0x192)], null) ? global.loadDatabase() : global.db[_0x5737f3(0x192)]);
       }
     }, 1000));
   }
-  if (_0x42ee1e[_0x40f217(0x19f)](global['db'][_0x40f217(0x192)], null)) {
+  if (_0x42ee1e[_0x40f217(0x19f)](global.db[_0x40f217(0x192)], null)) {
     return;
   }
-  global['db'][_0x40f217(0x1b1)] = true;
-  await global['db'][_0x40f217(0x9f)]()[_0x40f217(0x138)](console[_0x40f217(0xea)]);
-  global['db'][_0x40f217(0x1b1)] = null;
-  global['db']['data'] = {
+  global.db[_0x40f217(0x1b1)] = true;
+  await global.db[_0x40f217(0x9f)]()[_0x40f217(0x138)](console[_0x40f217(0xea)]);
+  global.db[_0x40f217(0x1b1)] = null;
+  global.db.data = {
     'users': {},
     'chats': {},
     'stats': {},
     'msgs': {},
     'sticker': {},
     'settings': {},
-    ...(global['db'][_0x40f217(0x192)] || {})
+    ...(global.db[_0x40f217(0x192)] || {})
   };
-  global['db']['chain'] = _0x42ee1e[_0x40f217(0x151)](chain, global['db'][_0x40f217(0x192)]);
+  global.db.chain = _0x42ee1e[_0x40f217(0x151)](chain, global.db[_0x40f217(0x192)]);
 };
 loadDatabase();
 global[_0x438c2c(0xc8)] = 'session';
 function _0xbb5b() {
-  const _0x2d81a5 = ['sdemote', 'pollUpdate', 'url', "Please type your WhatsApp number", 'statusCode', 'includes', 'env', 'CHROME', 'isValid', 'READ', " Edit Group Info has been restricted to admins only!", 'presence.update', 'groupsUpdate', 'xNycf', 'frpdD', 'tbpdv', 'find', "An error occurred during temporary file cleanup:", '5136215eZoApQ', '-filter_complex', 'OvMAn', 'WhkQX', " The group is now *OPEN*!\nAll participants can send messages.", 'wceVf', 'APIs', 'fFYCy', 'credsUpdate', 'sms', 'cyanBright', 'spawn', 'black', 'ZMIzz', 'support', "Start with your country's WhatsApp code, Example : 62xxx", '56svJCWH', 'gjwLT', 'countryCallingCode', 'bye', "initializing OSGeine Bot", 'SmsBg', 'ddbtG', '-hide_banner', 'Z3VydQ==', 'JkPsZ', "Environment variable not found.", '13700LEgIrW', 'lSogv', 'WVqDz', 'finally', 'handler', '604338ARnEIu', "👋 GOODBYE @user ", 'message', 'deleteUpdate', 'onsJn', 'MfUQd', 'default', 'phoneNumberCountryCode', 'SmcWv', 'NxRxi', 'log', 'RIHgh', "Please Enter Your OTP Code", 'TDJug', 'creds', 'level', 'ScBHD', 'sSubject', 'message.delete', 'XEmWK', 'yellow', 'stopped', "\nInvalid phone number: ", 'SuFmy', "\nconnection closed.... Trying to Restart", 'VBnzU', 'hfbqi', 'gfjQa', 'output', 'read', "processTxtAndSaveCredentials completed.", "💬 ", '__require', 'CcNqp', 'payload', 'fgypK', 'nUIbF', 'sRevoke', 'promote', 'SdAKU', 'AaNxY', 'SERVER_PORT', '--pairing-code', "Please type your WhatsApp number : ", 'LOl', 'greenBright', 'open', '@whiskeysockets/baileys', "\nNew plugin - '", 'func', 'UpQDu', 'PORT', 'base64', 'zESds', 'join', 'OYYyv', 'match', 'isChats', 'toJSON', 'conn', 'prefix', 'localeCompare', 'PzYJk', '-frames:v', 'sAKzt', './session.json', 'now', 'SctCs', 'SlwsX', 'test', 'authFolder', 'startsWith', 'DymNy', "*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-.@", 'messages.upsert', 'opts', '--mobile', 'forEach', 'subject', 'ueMCg', "\\$&", 'Hai🤩', 'package.json', 'UxYba', 'ZimJC', 'uLGQN', 'phoneNumberMobileCountryCode', 'welcome', 'VKBXM', 'RsFzc', 'API', 'groups.update', " The group is now *CLOSED*!\nOnly admins can send messages.", 'DATABASE_URL', 'trim', 'map', 'module', 'onHsB', 'HgOsi', "\nFailed to request registration code. Please try again.\n", 'ffmpeg', 'question', 'readFromFile', 'requestRegistrationCode', 'error', 'XtMLg', "\nError require plugin '", 'redBright', 'NTDbQ', 'VCNCE', '1423648gilotk', 'lScLK', 'oZEXz', 'webp', 'send', 'huiex', 'some', './plugins/index', 'filter', 'presenceUpdate', '-type', 'oyahH', 'oCZuN', 'requestPairingCode', 'ThfIx', 'bQsIP', " Edit Group Info is now available to all participants!", 'pbyCB', 'cWBjn', 'NebXA', 'messages.update', 'sFHfx', 'socket', 'sRestrictOff', 'jewhU', 'connectionUpdate', 'connection.update', 'APIKeys', 'toString', "Start with your country's WhatsApp code, Example 62xxx", 'CsrGR', 'demote', 'server', 'aHDli', '?update=', '662822dHUuvA', 'IWAWK', 'keys', 'authState', 'user', 'NmLoV', 'FLDHG', 'argv', "   ", 'OTNoH', 'uncaughtException', 'WTYVQ', '@g.us', 'renbF', "\nUpdated plugin - '", "📨 ", 'https://www.guruapi.tech/api', 'icon', 'fatal', '6|4|5|1|0|2|3|7', 'pre-key-', 'PdnxJ', 'ffprobe', 'toLowerCase', 'XequQ', 'HzYfC', 'from', 'hccih', 'writeToFile', 'reloadHandler', 'nFjGJ', 'color', 'WIwEP', 'SESSION_ID', 'kfPCB', "\nSyntax error while loading '", 'autocleartmp', 'catch', 'RjCPo', 'PUUID', 'loadMessage', 'FBWGy', 'sRNji', 'rBgSt', 'SGtDR', "- Number", 'reload', 'isInit', 'jrZRQ', 'zjewo', 'sendMessage', './session', 'QIOjQ', 'name', 'EYxWw', "\nLogging in....", 'rgOec', 'Nivcj', 'WdhAe', 'fromEntries', 'LtZWM', 'ACPay', 'xMwKG', "Your Pairing Code:", 'freeze', '4375206WfeDEx', 'tCwAa', 'plugins', 'KaGwH', 'zzsoG', 'removeAllListeners', 'convert', 'phoneNumberNationalNumber', " The group title has been changed to:\n@group", 'method', 'PYaba', 'PwAkf', '-delete', 'sort', 'chats', 'TJaUx', '--version', "\nDeleted plugin - '", 'wfHTj', '🖼️', "What method do you want to use? \"sms\" or \"voice\"", 'restrictOn', 'bold', 'GphJH', 'participantsUpdate', 'yVeTl', 'onDelete', 'info', 'byVSl', 'iTooj', 'Ufkfs', 'ubuntu', 'tmpdir', 'announceOn', 'timestamp', 'VrvMu', 'VSVtZ', '__dirname', 'zFKDe', 'DArHM', "- Method", 'utf8', 'cyan', "Temporary file cleanup completed.", 'HvNMe', 'clNIw', 'bind', 'exit', 'tYaYX', 'store', '👤🙅‍♂️', " Congrats you have successfully deployed GURU-BOT\nJoin my support Group for any Query\n https://chat.whatsapp.com/JY4R2D22pbLIKBMQWyBaLg", 'OmfCJ', 'logger', 'gurubot', 'revoke', '1005mjRUKC', 'phoneNumber', 'rVlkA', 'ucqie', 'Error:', 'child', 'data', 'hPhjL', 'gpHhY', 'warn', 'off', 'replace', 'entries', 'createInterface', '__filename', 'fUtpr', 'pairingNumber', '248733yzqLnk', './handler.js?update=', 'LagWL', 'write', 'UVeeI', " Hello @user!\n\n🎉 *WELCOME* to the group @group!\n\n📜 Please read the *DESCRIPTION* @desc.", 'close', "Successfully registered your phone number.", 'endsWith', 'bgBlack', 'tmp'];
+  const _0x2d81a5 = ['sdemote', 'pollUpdate', 'url', "Please type your WhatsApp number", 'statusCode', 'includes', 'env', 'CHROME', 'isValid', 'READ', " Edit Group Info has been restricted to admins only!", 'presence.update', 'groupsUpdate', 'xNycf', 'frpdD', 'tbpdv', 'find', "An error occurred during temporary file cleanup:", '5136215eZoApQ', '-filter_complex', 'OvMAn', 'WhkQX', " The group is now *OPEN*!\nAll participants can send messages.", 'wceVf', 'APIs', 'fFYCy', 'credsUpdate', 'sms', 'cyanBright', 'spawn', 'black', 'ZMIzz', 'support', "Start with your country's WhatsApp code, Example : 62xxx", '56svJCWH', 'gjwLT', 'countryCallingCode', 'bye', "initializing OSGeine Bot", 'SmsBg', 'ddbtG', '-hide_banner', 'Z3VydQ==', 'JkPsZ', "Environment variable not found.", '13700LEgIrW', 'lSogv', 'WVqDz', 'finally', 'handler', '604338ARnEIu', "👋 GOODBYE @user ", 'message', 'deleteUpdate', 'onsJn', 'MfUQd', 'default', 'phoneNumberCountryCode', 'SmcWv', 'NxRxi', 'log', 'RIHgh', "Please Enter Your OTP Code", 'TDJug', 'creds', 'level', 'ScBHD', 'sSubject', 'message.delete', 'XEmWK', 'yellow', 'stopped', "\nInvalid phone number: ", 'SuFmy', "\nconnection closed.... Trying to Restart", 'VBnzU', 'hfbqi', 'gfjQa', 'output', 'read', "processTxtAndSaveCredentials completed.", "💬 ", '__require', 'CcNqp', 'payload', 'fgypK', 'nUIbF', 'sRevoke', 'promote', 'SdAKU', 'AaNxY', 'SERVER_PORT', '--pairing-code', "Please type your WhatsApp number : ", 'LOl', 'greenBright', 'open', '@whiskeysockets/baileys', "\nNew plugin - '", 'func', 'UpQDu', 'PORT', 'base64', 'zESds', 'join', 'OYYyv', 'match', 'isChats', 'toJSON', 'conn', 'prefix', 'localeCompare', 'PzYJk', '-frames:v', 'sAKzt', './session.json', 'now', 'SctCs', 'SlwsX', 'test', 'authFolder', 'startsWith', 'DymNy', "*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®:;?&.\\-.@", 'messages.upsert', 'opts', '--mobile', 'forEach', 'subject', 'ueMCg', "\\$&", 'Hai🤩', 'package.json', 'UxYba', 'ZimJC', 'uLGQN', 'phoneNumberMobileCountryCode', 'welcome', 'VKBXM', 'RsFzc', 'API', 'groups.update', " The group is now *CLOSED*!\nOnly admins can send messages.", 'DATABASE_URL', 'trim', 'map', 'module', 'onHsB', 'HgOsi', "\nFailed to request registration code. Please try again.\n", 'ffmpeg', 'question', 'readFromFile', 'requestRegistrationCode', 'error', 'XtMLg', "\nError require plugin '", 'redBright', 'NTDbQ', 'VCNCE', '1423648gilotk', 'lScLK', 'oZEXz', 'webp', 'send', 'huiex', 'some', './plugins/index', 'filter', 'presenceUpdate', '-type', 'oyahH', 'oCZuN', 'requestPairingCode', 'ThfIx', 'bQsIP', " Edit Group Info is now available to all participants!", 'pbyCB', 'cWBjn', 'NebXA', 'messages.update', 'sFHfx', 'socket', 'sRestrictOff', 'jewhU', 'connectionUpdate', 'connection.update', 'APIKeys', 'toString', "Start with your country's WhatsApp code, Example 62xxx", 'CsrGR', 'demote', 'server', 'aHDli', '?update=', '662822dHUuvA', 'IWAWK', 'keys', 'authState', 'user', 'NmLoV', 'FLDHG', 'argv', "   ", 'OTNoH', 'uncaughtException', 'WTYVQ', '@g.us', 'renbF', "\nUpdated plugin - '", "📨 ", 'https://www.guruapi.tech/api', 'icon', 'fatal', '6|4|5|1|0|2|3|7', 'pre-key-', 'PdnxJ', 'ffprobe', 'toLowerCase', 'XequQ', 'HzYfC', 'from', 'hccih', 'writeToFile', 'reloadHandler', 'nFjGJ', 'color', 'WIwEP', 'SESSION_ID', 'kfPCB', "\nSyntax error while loading '", 'autocleartmp', 'catch', 'RjCPo', 'PUUID', 'loadMessage', 'FBWGy', 'sRNji', 'rBgSt', 'SGtDR', "- Number", 'reload', 'isInit', 'jrZRQ', 'zjewo', 'sendMessage', './session', 'QIOjQ', 'name', 'EYxWw', "\nLogging in....", 'rgOec', 'Nivcj', 'WdhAe', 'fromEntries', 'LtZWM', 'ACPay', 'xMwKG', "Your Pairing Code:", 'freeze', '4375206WfeDEx', 'tCwAa', 'plugins', 'KaGwH', 'zzsoG', 'removeAllListeners', 'convert', 'phoneNumberNationalNumber', " The group title has been changed to:\n@group", 'method', 'PYaba', 'PwAkf', '-delete', 'sort', 'chats', 'TJaUx', '--version', "\nDeleted plugin - '", 'wfHTj', '🖼️', "What method do you want to use? \"sms\" or \"voice\"", 'restrictOn', 'bold', 'GphJH', 'participantsUpdate', 'yVeTl', 'onDelete', 'info', 'byVSl', 'iTooj', 'Ufkfs', 'ubuntu', 'tmpdir', 'announceOn', 'timestamp', 'VrvMu', 'VSVtZ', '__dirname', 'zFKDe', 'DArHM', "- Method", 'utf8', 'cyan', "Temporary file cleanup completed.", 'HvNMe', 'clNIw', 'bind', 'exit', 'tYaYX', 'store', '👤🙅‍♂️', " Congrats you have successfully deployed OSGEINE-BOT", 'OmfCJ', 'logger', 'gurubot', 'revoke', '1005mjRUKC', 'phoneNumber', 'rVlkA', 'ucqie', 'Error:', 'child', 'data', 'hPhjL', 'gpHhY', 'warn', 'off', 'replace', 'entries', 'createInterface', '__filename', 'fUtpr', 'pairingNumber', '248733yzqLnk', './handler.js?update=', 'LagWL', 'write', 'UVeeI', " Hello @user!\n\n🎉 *WELCOME* to the group @group!\n\n📜 Please read the *DESCRIPTION* @desc.", 'close', "Successfully registered your phone number.", 'endsWith', 'bgBlack', 'tmp'];
   _0xbb5b = function () {
     return _0x2d81a5;
   };
@@ -278,7 +278,7 @@ const connectionOptions = {
   'browser': Browsers[_0x438c2c(0x173)](_0x438c2c(0x1af)),
   'auth': {
     'creds': state[_0x438c2c(0x90)],
-    'keys': makeCacheableSignalKeyStore(state[_0x438c2c(0x115)], _0x12fee7()['child']({
+    'keys': makeCacheableSignalKeyStore(state[_0x438c2c(0x115)], _0x12fee7().child({
       'level': 'fatal',
       'stream': _0x438c2c(0x185)
     }))
@@ -292,8 +292,8 @@ const connectionOptions = {
         return _0x1b224a(_0x224213);
       }
     };
-    let _0x3cffa6 = _0x3f549f[_0x22b3af(0x12e)](jidNormalizedUser, _0x3850c4['remoteJid']);
-    let _0x18c784 = await store[_0x22b3af(0x13b)](_0x3cffa6, _0x3850c4['id']);
+    let _0x3cffa6 = _0x3f549f[_0x22b3af(0x12e)](jidNormalizedUser, _0x3850c4.remoteJid);
+    let _0x18c784 = await store[_0x22b3af(0x13b)](_0x3cffa6, _0x3850c4.id);
     return _0x18c784?.[_0x22b3af(0x1dc)] || '';
   },
   'msgRetryCounterCache': msgRetryCounterCache,
@@ -301,25 +301,25 @@ const connectionOptions = {
 };
 global[_0x438c2c(0xbd)] = makeWASocket(connectionOptions);
 conn[_0x438c2c(0x142)] = false;
-store?.[_0x438c2c(0x182)](conn['ev']);
-if (pairingCode && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
+store?.[_0x438c2c(0x182)](conn.ev);
+if (pairingCode && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)].registered) {
   if (useMobile) {
     throw new Error("Cannot use pairing code with mobile api");
   }
   let phoneNumber;
   if (!!global[_0x438c2c(0x19c)]) {
-    phoneNumber = global['pairingNumber']['replace'](/[^0-9]/g, '');
-    if (!Object[_0x438c2c(0x115)](PHONENUMBER_MCC)['some'](_0x1a2c02 => phoneNumber[_0x438c2c(0xc9)](_0x1a2c02))) {
-      console['log'](_0x9f710a[_0x438c2c(0x1a6)](_0x9f710a[_0x438c2c(0xed)]("Start with your country's WhatsApp code, Example : 62xxx")));
+    phoneNumber = global.pairingNumber.replace(/[^0-9]/g, '');
+    if (!Object[_0x438c2c(0x115)](PHONENUMBER_MCC).some(_0x1a2c02 => phoneNumber[_0x438c2c(0xc9)](_0x1a2c02))) {
+      console.log(_0x9f710a[_0x438c2c(0x1a6)](_0x9f710a[_0x438c2c(0xed)]("Start with your country's WhatsApp code, Example : 62xxx")));
       process[_0x438c2c(0x183)](0x0);
     }
   } else {
     phoneNumber = await question(_0x9f710a[_0x438c2c(0x1a6)](_0x9f710a[_0x438c2c(0xaf)](_0x438c2c(0xad))));
     phoneNumber = phoneNumber[_0x438c2c(0x197)](/[^0-9]/g, '');
-    if (!Object[_0x438c2c(0x115)](PHONENUMBER_MCC)['some'](_0x3f6f20 => phoneNumber['startsWith'](_0x3f6f20))) {
+    if (!Object[_0x438c2c(0x115)](PHONENUMBER_MCC).some(_0x3f6f20 => phoneNumber.startsWith(_0x3f6f20))) {
       console[_0x438c2c(0x8c)](_0x9f710a[_0x438c2c(0x1a6)](_0x9f710a[_0x438c2c(0xed)](_0x438c2c(0x1c9))));
-      phoneNumber = await question(_0x9f710a['bgBlack'](_0x9f710a[_0x438c2c(0xaf)](_0x438c2c(0xad))));
-      phoneNumber = phoneNumber['replace'](/[^0-9]/g, '');
+      phoneNumber = await question(_0x9f710a.bgBlack(_0x9f710a[_0x438c2c(0xaf)](_0x438c2c(0xad))));
+      phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
       rl[_0x438c2c(0x1a3)]();
     }
   }
@@ -332,35 +332,35 @@ if (pairingCode && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
     };
     let _0x39edb5 = await conn[_0x571c96(0xfd)](phoneNumber);
     _0x39edb5 = _0x39edb5?.[_0x571c96(0xba)](/.{1,4}/g)?.[_0x571c96(0xb8)]('-') || _0x39edb5;
-    const _0x2d5a53 = _0x42bd05[_0x571c96(0x172)](_0x9f710a[_0x571c96(0x16a)]['greenBright'](_0x571c96(0x152)) + " ", _0x9f710a['bgGreenBright'](_0x9f710a[_0x571c96(0x1c6)](_0x39edb5)));
-    console['log'](_0x2d5a53);
+    const _0x2d5a53 = _0x42bd05[_0x571c96(0x172)](_0x9f710a[_0x571c96(0x16a)].greenBright(_0x571c96(0x152)) + " ", _0x9f710a.bgGreenBright(_0x9f710a[_0x571c96(0x1c6)](_0x39edb5)));
+    console.log(_0x2d5a53);
   }, 0xbb8);
 }
-if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
+if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)].registered) {
   const {
     registration
   } = conn[_0x438c2c(0x116)][_0x438c2c(0x90)] || {
     'registration': {}
   };
   if (!registration[_0x438c2c(0x18d)]) {
-    console[_0x438c2c(0x8c)]("📨 " + _0x9f710a['redBright'](_0x438c2c(0x1ab)) + ':');
+    console[_0x438c2c(0x8c)]("📨 " + _0x9f710a.redBright(_0x438c2c(0x1ab)) + ':');
     let phoneNumber = await question(_0x438c2c(0x11b) + _0x9f710a[_0x438c2c(0x17e)](_0x438c2c(0x140)) + ": ");
     phoneNumber = phoneNumber[_0x438c2c(0x197)](/[^0-9]/g, '');
     if (!Object[_0x438c2c(0x115)](PHONENUMBER_MCC)[_0x438c2c(0xf6)](_0x33844d => phoneNumber[_0x438c2c(0xc9)](_0x33844d))) {
-      console[_0x438c2c(0x8c)](_0x438c2c(0xa1) + _0x9f710a['redBright'](_0x438c2c(0x10d)) + ':');
+      console[_0x438c2c(0x8c)](_0x438c2c(0xa1) + _0x9f710a.redBright(_0x438c2c(0x10d)) + ':');
       console[_0x438c2c(0x8c)]("📨 " + _0x9f710a[_0x438c2c(0xed)](_0x438c2c(0x1ab)) + ':');
       phoneNumber = await question("   " + _0x9f710a[_0x438c2c(0x17e)](_0x438c2c(0x140)) + ": ");
-      phoneNumber = phoneNumber['replace'](/[^0-9]/g, '');
+      phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
     }
-    registration['phoneNumber'] = '+' + phoneNumber;
+    registration.phoneNumber = '+' + phoneNumber;
   }
   const phoneNumber = parsePhoneNumber(registration[_0x438c2c(0x18d)]);
   if (!phoneNumber[_0x438c2c(0x1b0)]()) {
-    conn[_0x438c2c(0x189)][_0x438c2c(0xea)](_0x438c2c(0x98) + registration['phoneNumber']);
+    conn[_0x438c2c(0x189)][_0x438c2c(0xea)](_0x438c2c(0x98) + registration.phoneNumber);
   }
-  registration[_0x438c2c(0x18d)] = phoneNumber['format']('E.164');
+  registration[_0x438c2c(0x18d)] = phoneNumber.format('E.164');
   registration[_0x438c2c(0x89)] = phoneNumber[_0x438c2c(0x1cc)];
-  registration[_0x438c2c(0x15b)] = phoneNumber['nationalNumber'];
+  registration[_0x438c2c(0x15b)] = phoneNumber.nationalNumber;
   const mcc = PHONENUMBER_MCC[phoneNumber[_0x438c2c(0x1cc)]];
   registration[_0x438c2c(0xd8)] = mcc;
   async function enterCode() {
@@ -375,15 +375,15 @@ if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
       }
     };
     try {
-      console['log'](_0x17899a(0x122) + _0x9f710a[_0x17899a(0xed)](_0x16763e[_0x17899a(0x8b)]) + ':');
-      const _0x279a3c = await question(_0x17899a(0x11b) + _0x9f710a['cyan'](_0x16763e[_0x17899a(0xff)]) + ": ");
-      const _0x5c5458 = await conn['register'](_0x279a3c[_0x17899a(0x197)](/[^0-9]/g, '')[_0x17899a(0xe0)]()[_0x17899a(0x12a)]());
-      console[_0x17899a(0x8c)](_0x17899a(0xa1) + _0x9f710a['redBright'](_0x16763e[_0x17899a(0xc2)]));
+      console.log(_0x17899a(0x122) + _0x9f710a[_0x17899a(0xed)](_0x16763e[_0x17899a(0x8b)]) + ':');
+      const _0x279a3c = await question(_0x17899a(0x11b) + _0x9f710a.cyan(_0x16763e[_0x17899a(0xff)]) + ": ");
+      const _0x5c5458 = await conn.register(_0x279a3c[_0x17899a(0x197)](/[^0-9]/g, '')[_0x17899a(0xe0)]()[_0x17899a(0x12a)]());
+      console[_0x17899a(0x8c)](_0x17899a(0xa1) + _0x9f710a.redBright(_0x16763e[_0x17899a(0xc2)]));
       console[_0x17899a(0x8c)](_0x5c5458);
-      rl['close']();
+      rl.close();
     } catch (_0x4fe64c) {
       conn[_0x17899a(0x189)][_0x17899a(0xea)](_0x16763e[_0x17899a(0x14b)], _0x4fe64c);
-      await _0x16763e['TbGFT'](askOTP);
+      await askOTP();
     }
   }
   async function askOTP() {
@@ -408,9 +408,9 @@ if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
       'xTEti': _0x391af4(0x18f)
     };
     console[_0x391af4(0x8c)]("📨 " + _0x9f710a[_0x391af4(0xed)](_0x55beca[_0x391af4(0x10e)]));
-    let _0x27b7bc = await _0x55beca['eJJie'](question, _0x391af4(0x11b) + _0x9f710a['cyan'](_0x391af4(0x17c)) + ": ");
-    _0x27b7bc = _0x27b7bc['replace'](/["']/g, '')[_0x391af4(0xe0)]()[_0x391af4(0x12a)]();
-    if (_0x55beca[_0x391af4(0xf5)](_0x27b7bc, _0x55beca[_0x391af4(0x13e)]) && _0x27b7bc !== _0x55beca['kVFZi']) {
+    let _0x27b7bc = await question(_0x391af4(0x11b) + _0x9f710a.cyan(_0x391af4(0x17c)) + ": ");
+    _0x27b7bc = _0x27b7bc.replace(/["']/g, '')[_0x391af4(0xe0)]()[_0x391af4(0x12a)]();
+    if (_0x55beca[_0x391af4(0xf5)](_0x27b7bc, _0x55beca[_0x391af4(0x13e)]) && _0x27b7bc !== 'voice') {
       return await askOTP();
     }
     registration[_0x391af4(0x15d)] = _0x27b7bc;
@@ -418,10 +418,10 @@ if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
       await conn[_0x391af4(0xe9)](registration);
       await _0x55beca[_0x391af4(0xb4)](enterCode);
     } catch (_0xd64738) {
-      if (_0x55beca[_0x391af4(0x12c)](_0x55beca['xTEti'], 'ucqie')) {
+      if (_0x55beca[_0x391af4(0x12c)](_0x55beca.xTEti, 'ucqie')) {
         _0x206353 = _0x17f322[_0x391af4(0x19c)][_0x391af4(0x197)](/[^0-9]/g, '');
-        if (!_0x26b172[_0x391af4(0x115)](_0x4cda99)['some'](_0xb02d56 => _0x2e54ae[_0x391af4(0xc9)](_0xb02d56))) {
-          _0x5bb791['log'](_0x138a3c[_0x391af4(0x1a6)](_0x1b7c67[_0x391af4(0xed)](_0x55beca[_0x391af4(0xfc)])));
+        if (!_0x26b172[_0x391af4(0x115)](_0x4cda99).some(_0xb02d56 => _0x2e54ae[_0x391af4(0xc9)](_0xb02d56))) {
+          _0x5bb791.log(_0x138a3c[_0x391af4(0x1a6)](_0x1b7c67[_0x391af4(0xed)](_0x55beca[_0x391af4(0xfc)])));
           _0x54a659[_0x391af4(0x183)](0x0);
         }
       } else {
@@ -433,12 +433,12 @@ if (useMobile && !conn[_0x438c2c(0x116)][_0x438c2c(0x90)]['registered']) {
   await askOTP();
 }
 conn[_0x438c2c(0x189)][_0x438c2c(0x16f)]("\nWaiting For Login\n");
-if (!opts['test']) {
-  if (global['db']) {
+if (!opts.test) {
+  if (global.db) {
     setInterval(async () => {
       const _0x549cc7 = _0x438c2c;
-      if (global['db'][_0x549cc7(0x192)]) {
-        await global['db'][_0x549cc7(0x1a0)]();
+      if (global.db[_0x549cc7(0x192)]) {
+        await global.db[_0x549cc7(0x1a0)]();
       }
       if (opts[_0x549cc7(0x137)] && (global[_0x549cc7(0x1c8)] || {})[_0x549cc7(0x1b8)]) {
         tmp = [os[_0x549cc7(0x174)](), _0x549cc7(0x1a7)];
@@ -462,15 +462,15 @@ function runCleanup() {
       return _0x26d4d1 * _0x43717b;
     }
   };
-  _0x3dce2c()['then'](() => {
+  _0x3dce2c().then(() => {
     const _0x57826a = _0x310355;
     const _0x52dc8b = {
       'HvNMe': _0x57826a(0x1c9)
     };
-    if (_0x5c2986['kfPCB'] === _0x5c2986[_0x57826a(0x135)]) {
+    if (_0x5c2986.kfPCB === _0x5c2986[_0x57826a(0x135)]) {
       console[_0x57826a(0x8c)](_0x57826a(0x17f));
     } else {
-      _0x298914[_0x57826a(0x8c)](_0x528604[_0x57826a(0x1a6)](_0x3b6920['redBright'](_0x52dc8b[_0x57826a(0x180)])));
+      _0x298914[_0x57826a(0x8c)](_0x528604[_0x57826a(0x1a6)](_0x3b6920.redBright(_0x52dc8b[_0x57826a(0x180)])));
       _0x2049c5[_0x57826a(0x183)](0x0);
     }
   })[_0x310355(0x138)](_0x3d5525 => {
@@ -478,7 +478,7 @@ function runCleanup() {
     console[_0xfe8957(0xea)](_0x5c2986[_0xfe8957(0x13a)], _0x3d5525);
   })[_0x310355(0x1d8)](() => {
     const _0x156975 = _0x310355;
-    _0x5c2986['rcWPI'](setTimeout, runCleanup, _0x5c2986[_0x156975(0x163)](0x3e8, 0x3c) * 0x2);
+    setTimeout(runCleanup, _0x5c2986[_0x156975(0x163)](0x3e8, 0x3c) * 0x2);
   });
 }
 runCleanup();
@@ -511,7 +511,7 @@ function purgeSession() {
   const _0x55e13f = _0x556805[_0x445d07(0x8a)](readdirSync, _0x556805[_0x445d07(0xee)]);
   const _0x30e533 = _0x55e13f[_0x445d07(0xf8)](_0x446066 => {
     const _0x1387c3 = _0x445d07;
-    return _0x446066[_0x1387c3(0xc9)](_0x556805['xkVZA']);
+    return _0x446066[_0x1387c3(0xc9)](_0x556805.xkVZA);
   });
   _0x130e67 = [..._0x130e67, ..._0x30e533];
   _0x30e533[_0x445d07(0xcf)](_0x2bb087 => {
@@ -520,7 +520,7 @@ function purgeSession() {
       _0x556805[_0x2fc2c2(0x178)](unlinkSync, './session/' + _0x2bb087);
     } else {
       _0x38ef7a[_0x2fc2c2(0x189)][_0x2fc2c2(0x195)]("\nDeleted plugin - '" + _0x3f9e96 + "'");
-      return delete _0x57db85['plugins'][_0x4a4393];
+      return delete _0x57db85.plugins[_0x4a4393];
     }
   });
 }
@@ -558,10 +558,10 @@ async function connectionUpdate(_0x3d3f17) {
     conn[_0x2c0f9a(0x142)] = true;
   }
   const _0x38a63a = _0x3448ad?.[_0x2c0f9a(0xea)]?.[_0x2c0f9a(0x9e)]?.[_0x2c0f9a(0x1ac)] || _0x3448ad?.[_0x2c0f9a(0xea)]?.[_0x2c0f9a(0x9e)]?.[_0x2c0f9a(0xa4)]?.[_0x2c0f9a(0x1ac)];
-  if (_0x38a63a && _0x38a63a !== DisconnectReason['loggedOut'] && _0x255be0[_0x2c0f9a(0x1bc)](conn?.['ws'][_0x2c0f9a(0x106)], null)) {
-    conn[_0x2c0f9a(0x189)]['info'](await global[_0x2c0f9a(0x130)](true)[_0x2c0f9a(0x138)](console[_0x2c0f9a(0xea)]));
+  if (_0x38a63a && _0x38a63a !== DisconnectReason.loggedOut && _0x255be0[_0x2c0f9a(0x1bc)](conn?.['ws'][_0x2c0f9a(0x106)], null)) {
+    conn[_0x2c0f9a(0x189)].info(await global[_0x2c0f9a(0x130)](true)[_0x2c0f9a(0x138)](console[_0x2c0f9a(0xea)]));
   }
-  if (_0x255be0[_0x2c0f9a(0x1bc)](global['db']['data'], null)) {
+  if (_0x255be0[_0x2c0f9a(0x1bc)](global.db.data, null)) {
     _0x255be0[_0x2c0f9a(0x1d3)](loadDatabase);
   }
   if (_0x255be0[_0x2c0f9a(0x170)](!pairingCode, !useMobile) && useQr && _0x255be0[_0x2c0f9a(0xd1)](_0x168288, 0x0) && _0x255be0[_0x2c0f9a(0xd1)](_0x168288, undefined)) {
@@ -582,11 +582,11 @@ async function connectionUpdate(_0x3d3f17) {
     conn[_0x2c0f9a(0x189)][_0x2c0f9a(0x16f)](_0x9f710a[_0x2c0f9a(0x96)](_0x255be0[_0x2c0f9a(0x1b6)]));
   }
   if (_0x255be0[_0x2c0f9a(0x1bc)](_0x313273, _0x255be0[_0x2c0f9a(0x102)])) {
-    conn[_0x2c0f9a(0x189)]['error'](_0x9f710a[_0x2c0f9a(0x96)](_0x2c0f9a(0x9a)));
-    process[_0x2c0f9a(0xf4)](_0x255be0['tJDhs']);
+    conn[_0x2c0f9a(0x189)].error(_0x9f710a[_0x2c0f9a(0x96)](_0x2c0f9a(0x9a)));
+    process[_0x2c0f9a(0xf4)]('reset');
   }
 }
-process['on'](_0x438c2c(0x11d), console['error']);
+process.on(_0x438c2c(0x11d), console.error);
 let isInit = true;
 let handler = await import('./handler.js');
 global[_0x438c2c(0x130)] = async function (_0x5cd59c) {
@@ -628,63 +628,63 @@ global[_0x438c2c(0x130)] = async function (_0x5cd59c) {
   };
   try {
     const _0x3dd72f = await import(_0xc84fd3(0x19e) + Date[_0xc84fd3(0xc4)]())['catch'](console[_0xc84fd3(0xea)]);
-    if (Object[_0xc84fd3(0x115)](_0x5abf89[_0xc84fd3(0x111)](_0x3dd72f, {}))['length']) {
+    if (Object[_0xc84fd3(0x115)](_0x5abf89[_0xc84fd3(0x111)](_0x3dd72f, {})).length) {
       handler = _0x3dd72f;
     }
   } catch (_0x1fa846) {
     console[_0xc84fd3(0xea)];
   }
   if (_0x5cd59c) {
-    if (_0x5abf89['VTwGB'](_0x5abf89[_0xc84fd3(0xc6)], _0xc84fd3(0x158))) {
-      const _0x27a9d7 = global[_0xc84fd3(0xbd)]['chats'];
+    if (_0x5abf89[_0xc84fd3(0xc6)] !== _0xc84fd3(0x158)) {
+      const _0x27a9d7 = global[_0xc84fd3(0xbd)].chats;
       try {
-        if (_0x5abf89['NDUQi'] !== _0xc84fd3(0x8f)) {
-          global[_0xc84fd3(0xbd)]['ws'][_0xc84fd3(0x1a3)]();
+        if (_0x5abf89.NDUQi !== _0xc84fd3(0x8f)) {
+          global[_0xc84fd3(0xbd)].ws[_0xc84fd3(0x1a3)]();
         } else {
           _0x3a7cf8[_0xc84fd3(0x8c)]('' + _0x401676);
-          _0x314d7b[_0xc84fd3(0x8c)](_0x34cb44[_0xc84fd3(0x1a6)](_0x38e111[_0xc84fd3(0xed)](_0x5abf89['QsVvJ'])));
+          _0x314d7b[_0xc84fd3(0x8c)](_0x34cb44[_0xc84fd3(0x1a6)](_0x38e111[_0xc84fd3(0xed)](_0x5abf89.QsVvJ)));
         }
       } catch {}
-      conn['ev'][_0xc84fd3(0x159)]();
+      conn.ev[_0xc84fd3(0x159)]();
       global[_0xc84fd3(0xbd)] = makeWASocket(connectionOptions, {
         'chats': _0x27a9d7
       });
       isInit = true;
     } else {
-      _0x57ec90['on'](_0x5abf89[_0xc84fd3(0xa5)], _0x24b147 => _0xc52bb5(false));
+      _0x57ec90.on(_0x5abf89[_0xc84fd3(0xa5)], _0x24b147 => _0xc52bb5(false));
     }
   }
   if (!isInit) {
     if (_0x5abf89[_0xc84fd3(0xa3)](_0x5abf89[_0xc84fd3(0x15f)], _0xc84fd3(0x184))) {
-      const _0x4719b8 = _0x592450[_0xc84fd3(0x198)](_0xa98aa8['chats'])['filter'](([_0x4aec2d, _0x3c379f]) => !_0x4aec2d[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x3c379f[_0xc84fd3(0xbb)])['map'](_0x380fb0 => _0x380fb0[0x0]);
+      const _0x4719b8 = _0x592450[_0xc84fd3(0x198)](_0xa98aa8.chats).filter(([_0x4aec2d, _0x3c379f]) => !_0x4aec2d[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x3c379f[_0xc84fd3(0xbb)]).map(_0x380fb0 => _0x380fb0[0x0]);
     } else {
-      const _0x513b93 = _0xc84fd3(0x126)['split']('|');
+      const _0x513b93 = _0xc84fd3(0x126).split('|');
       let _0x3f31c3 = 0x0;
       while (true) {
         switch (_0x513b93[_0x3f31c3++]) {
           case '0':
-            conn['ev'][_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0xc5)], conn['onDelete']);
+            conn.ev[_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0xc5)], conn.onDelete);
             continue;
           case '1':
-            conn['ev']['off'](_0xc84fd3(0xdd), conn[_0xc84fd3(0x1b4)]);
+            conn.ev.off(_0xc84fd3(0xdd), conn[_0xc84fd3(0x1b4)]);
             continue;
           case '2':
-            conn['ev']['off'](_0x5abf89['XtMLg'], conn['presenceUpdate']);
+            conn.ev.off(_0x5abf89.XtMLg, conn.presenceUpdate);
             continue;
           case '3':
-            conn['ev'][_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0x1b5)], conn[_0xc84fd3(0x109)]);
+            conn.ev[_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0x1b5)], conn[_0xc84fd3(0x109)]);
             continue;
           case '4':
-            conn['ev']['off'](_0xc84fd3(0x104), conn['pollUpdate']);
+            conn.ev.off(_0xc84fd3(0x104), conn.pollUpdate);
             continue;
           case '5':
-            conn['ev'][_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0xef)], conn[_0xc84fd3(0x16c)]);
+            conn.ev[_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0xef)], conn[_0xc84fd3(0x16c)]);
             continue;
           case '6':
-            conn['ev'][_0xc84fd3(0x196)](_0x5abf89['xHCdy'], conn[_0xc84fd3(0x1d9)]);
+            conn.ev[_0xc84fd3(0x196)](_0x5abf89.xHCdy, conn[_0xc84fd3(0x1d9)]);
             continue;
           case '7':
-            conn['ev'][_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0x14c)], conn[_0xc84fd3(0x1c2)]);
+            conn.ev[_0xc84fd3(0x196)](_0x5abf89[_0xc84fd3(0x14c)], conn[_0xc84fd3(0x1c2)]);
             continue;
         }
         break;
@@ -705,45 +705,45 @@ global[_0x438c2c(0x130)] = async function (_0x5cd59c) {
     'restrictOn': '🚫',
     'restrictOff': '✅'
   };
-  conn[_0xc84fd3(0xd9)] = _0x54c124['welcome'] + _0xc84fd3(0x1a2);
+  conn[_0xc84fd3(0xd9)] = '👋' + _0xc84fd3(0x1a2);
   conn[_0xc84fd3(0x1cd)] = _0xc84fd3(0x1db) + _0x54c124[_0xc84fd3(0x1cd)] + "\n\nSee you later!";
-  conn['spromote'] = _0x54c124[_0xc84fd3(0xa8)] + "*@user* has been promoted to an admin!";
+  conn.spromote = _0x54c124[_0xc84fd3(0xa8)] + "*@user* has been promoted to an admin!";
   conn[_0xc84fd3(0x1a8)] = _0x54c124[_0xc84fd3(0x10f)] + "*@user* is no longer an admin.";
-  conn['sDesc'] = _0x54c124['desc'] + " The group description has been updated to:\n@desc";
+  conn.sDesc = "📝 The group description has been updated to:\n@desc";
   conn[_0xc84fd3(0x93)] = _0x54c124[_0xc84fd3(0xd0)] + _0xc84fd3(0x15c);
-  conn['sIcon'] = _0x54c124[_0xc84fd3(0x124)] + " The group icon has been updated!";
+  conn.sIcon = _0x54c124[_0xc84fd3(0x124)] + " The group icon has been updated!";
   conn[_0xc84fd3(0xa7)] = _0x54c124[_0xc84fd3(0x18b)] + " The group link has been changed to:\n@revoke";
-  conn['sAnnounceOn'] = _0x54c124[_0xc84fd3(0x175)] + _0xc84fd3(0xde);
-  conn['sAnnounceOff'] = _0x54c124['announceOff'] + _0xc84fd3(0x1be);
-  conn['sRestrictOn'] = _0x54c124[_0xc84fd3(0x169)] + _0xc84fd3(0x1b2);
-  conn[_0xc84fd3(0x107)] = _0x54c124['restrictOff'] + _0xc84fd3(0x100);
-  conn[_0xc84fd3(0x1d9)] = handler[_0xc84fd3(0x1d9)]['bind'](global[_0xc84fd3(0xbd)]);
-  conn[_0xc84fd3(0x1a9)] = handler['pollUpdate'][_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
+  conn.sAnnounceOn = _0x54c124[_0xc84fd3(0x175)] + _0xc84fd3(0xde);
+  conn.sAnnounceOff = '🔓' + _0xc84fd3(0x1be);
+  conn.sRestrictOn = _0x54c124[_0xc84fd3(0x169)] + _0xc84fd3(0x1b2);
+  conn[_0xc84fd3(0x107)] = '✅' + _0xc84fd3(0x100);
+  conn[_0xc84fd3(0x1d9)] = handler[_0xc84fd3(0x1d9)].bind(global[_0xc84fd3(0xbd)]);
+  conn[_0xc84fd3(0x1a9)] = handler.pollUpdate[_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
   conn[_0xc84fd3(0x16c)] = handler[_0xc84fd3(0x16c)][_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
-  conn[_0xc84fd3(0x1b4)] = handler[_0xc84fd3(0x1b4)][_0xc84fd3(0x182)](global['conn']);
+  conn[_0xc84fd3(0x1b4)] = handler[_0xc84fd3(0x1b4)][_0xc84fd3(0x182)](global.conn);
   conn[_0xc84fd3(0x16e)] = handler[_0xc84fd3(0x1dd)][_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
-  conn['presenceUpdate'] = handler['presenceUpdate'][_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
+  conn.presenceUpdate = handler.presenceUpdate[_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
   conn[_0xc84fd3(0x109)] = connectionUpdate[_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)]);
   conn[_0xc84fd3(0x1c2)] = saveCreds[_0xc84fd3(0x182)](global[_0xc84fd3(0xbd)], true);
   const _0x51d78b = new Date();
-  const _0x27167c = new Date(conn['ev']);
+  const _0x27167c = new Date(conn.ev);
   if (_0x5abf89[_0xc84fd3(0xfe)](_0x51d78b, _0x27167c)) {
-    const _0x491ee3 = Object[_0xc84fd3(0x198)](conn['chats'])[_0xc84fd3(0xf8)](([_0x294372, _0x1faa20]) => !_0x294372[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x1faa20['isChats'])[_0xc84fd3(0xe1)](_0x5f0225 => _0x5f0225[0x0]);
+    const _0x491ee3 = Object[_0xc84fd3(0x198)](conn.chats)[_0xc84fd3(0xf8)](([_0x294372, _0x1faa20]) => !_0x294372[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x1faa20.isChats)[_0xc84fd3(0xe1)](_0x5f0225 => _0x5f0225[0x0]);
   } else {
-    if (_0x5abf89['XWUio'](_0x5abf89['hbULy'], _0x5abf89['knwKm'])) {
-      const _0x3899fa = Object[_0xc84fd3(0x198)](conn[_0xc84fd3(0x162)])[_0xc84fd3(0xf8)](([_0x446af4, _0x3d6153]) => !_0x446af4[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x3d6153['isChats'])['map'](_0x48192f => _0x48192f[0x0]);
+    if (_0x5abf89.hbULy !== _0x5abf89.knwKm) {
+      const _0x3899fa = Object[_0xc84fd3(0x198)](conn[_0xc84fd3(0x162)])[_0xc84fd3(0xf8)](([_0x446af4, _0x3d6153]) => !_0x446af4[_0xc84fd3(0x1a5)](_0xc84fd3(0x11f)) && _0x3d6153.isChats).map(_0x48192f => _0x48192f[0x0]);
     } else {
       _0x55916d[_0xc84fd3(0x8c)](_0x5abf89[_0xc84fd3(0x1d0)]);
     }
   }
-  conn['ev']['on']('messages.upsert', conn[_0xc84fd3(0x1d9)]);
-  conn['ev']['on'](_0x5abf89[_0xc84fd3(0x131)], conn[_0xc84fd3(0x1a9)]);
-  conn['ev']['on'](_0x5abf89[_0xc84fd3(0xef)], conn[_0xc84fd3(0x16c)]);
-  conn['ev']['on'](_0x5abf89[_0xc84fd3(0xb7)], conn[_0xc84fd3(0x1b4)]);
-  conn['ev']['on'](_0x5abf89['SctCs'], conn['onDelete']);
-  conn['ev']['on'](_0x5abf89[_0xc84fd3(0xeb)], conn[_0xc84fd3(0xf9)]);
-  conn['ev']['on'](_0x5abf89['xNycf'], conn[_0xc84fd3(0x109)]);
-  conn['ev']['on'](_0x5abf89[_0xc84fd3(0x14c)], conn[_0xc84fd3(0x1c2)]);
+  conn.ev.on('messages.upsert', conn[_0xc84fd3(0x1d9)]);
+  conn.ev.on(_0x5abf89[_0xc84fd3(0x131)], conn[_0xc84fd3(0x1a9)]);
+  conn.ev.on(_0x5abf89[_0xc84fd3(0xef)], conn[_0xc84fd3(0x16c)]);
+  conn.ev.on(_0x5abf89[_0xc84fd3(0xb7)], conn[_0xc84fd3(0x1b4)]);
+  conn.ev.on(_0x5abf89.SctCs, conn.onDelete);
+  conn.ev.on(_0x5abf89[_0xc84fd3(0xeb)], conn[_0xc84fd3(0xf9)]);
+  conn.ev.on(_0x5abf89.xNycf, conn[_0xc84fd3(0x109)]);
+  conn.ev.on(_0x5abf89[_0xc84fd3(0x14c)], conn[_0xc84fd3(0x1c2)]);
   isInit = false;
   return true;
 };
@@ -766,7 +766,7 @@ async function filesInit() {
   for (const _0x5e3d44 of _0x19304d[_0x463bbd(0x19b)](readdirSync, pluginFolder)[_0x463bbd(0xf8)](pluginFilter)) {
     try {
       if (_0x463bbd(0x13d) !== _0x19304d[_0x463bbd(0x171)]) {
-        _0x20f295['log'](_0x964d4d);
+        _0x20f295.log(_0x964d4d);
         _0x3beff1[_0x463bbd(0x183)](0x1);
       } else {
         const _0x8d1ed8 = global[_0x463bbd(0x19a)](join(pluginFolder, _0x5e3d44));
@@ -774,17 +774,17 @@ async function filesInit() {
         global[_0x463bbd(0x156)][_0x5e3d44] = _0x545795[_0x463bbd(0x88)] || _0x545795;
       }
     } catch (_0x2c1d09) {
-      if (_0x19304d['BgVKL'] !== _0x19304d[_0x463bbd(0xe4)]) {
+      if (_0x19304d.BgVKL !== _0x19304d[_0x463bbd(0xe4)]) {
         conn[_0x463bbd(0x189)][_0x463bbd(0xea)](_0x2c1d09);
         delete global[_0x463bbd(0x156)][_0x5e3d44];
       } else {
-        _0x87e405[_0x463bbd(0x189)]['error'](_0x463bbd(0xec) + _0x45c174 + "\n" + _0x19304d[_0x463bbd(0x177)](_0x146d05, _0x382cd4) + "'");
+        _0x87e405[_0x463bbd(0x189)].error(_0x463bbd(0xec) + _0x45c174 + "\n" + _0x19304d[_0x463bbd(0x177)](_0x146d05, _0x382cd4) + "'");
       }
     }
   }
 }
-filesInit()['then'](_0x153d6b => Object[_0x438c2c(0x115)](global['plugins']))[_0x438c2c(0x138)](console[_0x438c2c(0xea)]);
-global['reload'] = async (_0x608cd0, _0x248e40) => {
+filesInit().then(_0x153d6b => Object[_0x438c2c(0x115)](global.plugins))[_0x438c2c(0x138)](console[_0x438c2c(0xea)]);
+global.reload = async (_0x608cd0, _0x248e40) => {
   const _0x541b63 = _0x438c2c;
   const _0xf4f9d4 = {
     'SIYCQ': _0x541b63(0x190),
@@ -823,13 +823,13 @@ global['reload'] = async (_0x608cd0, _0x248e40) => {
     }
   };
   if (_0xf4f9d4[_0x541b63(0x1c7)](pluginFilter, _0x248e40)) {
-    const _0x5c5842 = global[_0x541b63(0x19a)](_0xf4f9d4['PMDJA'](join, pluginFolder, _0x248e40), true);
-    if (_0x248e40 in global['plugins']) {
+    const _0x5c5842 = global[_0x541b63(0x19a)](join(pluginFolder, _0x248e40), true);
+    if (_0x248e40 in global.plugins) {
       if (_0xf4f9d4[_0x541b63(0x1c7)](existsSync, _0x5c5842)) {
         conn[_0x541b63(0x189)][_0x541b63(0x16f)](_0x541b63(0x121) + _0x248e40 + "'");
       } else {
         if (_0xf4f9d4[_0x541b63(0x1a1)](_0xf4f9d4[_0x541b63(0x13f)], _0x541b63(0x194))) {
-          _0x234316[_0x541b63(0xea)](_0xf4f9d4['SIYCQ'], _0xd898e2);
+          _0x234316[_0x541b63(0xea)](_0xf4f9d4.SIYCQ, _0xd898e2);
         } else {
           conn[_0x541b63(0x189)][_0x541b63(0x195)](_0x541b63(0x165) + _0x248e40 + "'");
           return delete global[_0x541b63(0x156)][_0x248e40];
@@ -850,13 +850,13 @@ global['reload'] = async (_0x608cd0, _0x248e40) => {
         global[_0x541b63(0x156)][_0x248e40] = _0xa81d16['default'] || _0xa81d16;
       } catch (_0x2126da) {
         if (_0xf4f9d4[_0x541b63(0x14d)](_0xf4f9d4[_0x541b63(0xd7)], _0xf4f9d4[_0x541b63(0x18e)])) {
-          conn['logger'][_0x541b63(0xea)]("\nError require plugin '" + _0x248e40 + "\n" + _0xf4f9d4[_0x541b63(0x1c1)](format, _0x2126da) + "'");
+          conn.logger[_0x541b63(0xea)]("\nError require plugin '" + _0x248e40 + "\n" + _0xf4f9d4[_0x541b63(0x1c1)](format, _0x2126da) + "'");
         } else {
           const _0xad2813 = {
-            'OTNoH': _0xf4f9d4['vclDv'],
+            'OTNoH': _0xf4f9d4.vclDv,
             'egcsa': _0xf4f9d4[_0x541b63(0x181)],
             'onHsB': function (_0x5d4ea5, _0x3be220, _0x549477) {
-              return _0xf4f9d4['PMDJA'](_0x5d4ea5, _0x3be220, _0x549477);
+              return _0x5d4ea5(_0x3be220, _0x549477);
             },
             'IWAWK': function (_0x1d0b15, _0x5a1557) {
               const _0x421a09 = _0x541b63;
@@ -867,18 +867,18 @@ global['reload'] = async (_0x608cd0, _0x248e40) => {
               return _0xf4f9d4[_0x225e52(0x105)](_0xac2a8d, _0x40b3b2);
             }
           };
-          _0xf4f9d4[_0x541b63(0x108)](_0x191596)['then'](() => {
+          _0xf4f9d4[_0x541b63(0x108)](_0x191596).then(() => {
             const _0x2feea2 = _0x541b63;
             _0x2db964[_0x2feea2(0x8c)](_0xad2813[_0x2feea2(0x11c)]);
           })[_0x541b63(0x138)](_0xf6f500 => {
-            _0x2bca2a['error'](_0xad2813['egcsa'], _0xf6f500);
+            _0x2bca2a.error(_0xad2813.egcsa, _0xf6f500);
           })[_0x541b63(0x1d8)](() => {
             const _0x567cca = _0x541b63;
             _0xad2813[_0x567cca(0xe3)](_0x475750, _0x264474, _0xad2813[_0x567cca(0x114)](_0xad2813[_0x567cca(0xdb)](0x3e8, 0x3c), 0x2));
           });
         }
       } finally {
-        global[_0x541b63(0x156)] = Object['fromEntries'](Object['entries'](global[_0x541b63(0x156)])[_0x541b63(0x161)](([_0x3a5464], [_0x474a1b]) => _0x3a5464[_0x541b63(0xbf)](_0x474a1b)));
+        global[_0x541b63(0x156)] = Object.fromEntries(Object.entries(global[_0x541b63(0x156)])[_0x541b63(0x161)](([_0x3a5464], [_0x474a1b]) => _0x3a5464[_0x541b63(0xbf)](_0x474a1b)));
       }
     }
   }
@@ -918,38 +918,38 @@ async function _quickTest() {
     },
     'SdAKU': _0xcf21ef(0x1b8)
   };
-  const _0x5f3acf = await Promise['all']([_0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed['ufAOI']), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed['ZIVVk']), _0x2796ed[_0xcf21ef(0x95)](spawn, 'ffmpeg', [_0x2796ed['dKfTl'], _0x2796ed[_0xcf21ef(0x99)], _0x2796ed['oyahH'], _0x2796ed[_0xcf21ef(0x150)], _0xcf21ef(0x132), _0x2796ed[_0xcf21ef(0xa6)], '1', '-f', _0x2796ed['RWrPl'], '-']), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed[_0xcf21ef(0x1bd)]), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed[_0xcf21ef(0xf2)]), _0x2796ed['tlriV'](spawn, 'gm'), _0x2796ed['XEmWK'](spawn, _0x2796ed[_0xcf21ef(0xa9)], [_0xcf21ef(0x164)])]['map'](_0x40e4c8 => {
+  const _0x5f3acf = await Promise.all([_0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed.ufAOI), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed.ZIVVk), _0x2796ed[_0xcf21ef(0x95)](spawn, 'ffmpeg', [_0x2796ed.dKfTl, _0x2796ed[_0xcf21ef(0x99)], _0x2796ed.oyahH, _0x2796ed[_0xcf21ef(0x150)], _0xcf21ef(0x132), _0x2796ed[_0xcf21ef(0xa6)], '1', '-f', _0x2796ed.RWrPl, '-']), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed[_0xcf21ef(0x1bd)]), _0x2796ed[_0xcf21ef(0x16d)](spawn, _0x2796ed[_0xcf21ef(0xf2)]), spawn('gm'), spawn(_0x2796ed[_0xcf21ef(0xa9)], [_0xcf21ef(0x164)])].map(_0x40e4c8 => {
     const _0x4a4312 = _0xcf21ef;
     const _0x59b622 = {
       'kVyAS': function (_0x1d47a3, _0x334d97) {
-        return _0x2796ed['RzseW'](_0x1d47a3, _0x334d97);
+        return _0x1d47a3 !== _0x334d97;
       },
       'ScBHD': _0x2796ed[_0x4a4312(0xfb)]
     };
-    if (_0x2796ed['NYiIa'](_0x4a4312(0x11e), _0x2796ed[_0x4a4312(0x14f)])) {
+    if (_0x4a4312(0x11e) === _0x2796ed[_0x4a4312(0x14f)]) {
       const _0x388e36 = {
         'tbpdv': _0x59b622[_0x4a4312(0x92)]
       };
-      return _0x42957c['race']([new _0x3ebd29(_0x50aa10 => {
+      return _0x42957c.race([new _0x3ebd29(_0x50aa10 => {
         const _0x2b67a3 = _0x4a4312;
         const _0x26ae6c = {
           'WIwEP': function (_0x4c2eb6, _0x48301e) {
             return _0x4c2eb6(_0x48301e);
           },
           'UxYba': function (_0x41d03e, _0x1b2a3b) {
-            return _0x59b622['kVyAS'](_0x41d03e, _0x1b2a3b);
+            return _0x41d03e !== _0x1b2a3b;
           }
         };
-        _0x585d88['on'](_0x2b67a3(0x1a3), _0x1da925 => {
+        _0x585d88.on(_0x2b67a3(0x1a3), _0x1da925 => {
           const _0x37734c = _0x2b67a3;
           _0x26ae6c[_0x37734c(0x133)](_0x50aa10, _0x26ae6c[_0x37734c(0xd5)](_0x1da925, 0x7f));
         });
       }), new _0x39ae59(_0x248e8d => {
         const _0x3bc6f7 = _0x4a4312;
-        _0x495a87['on'](_0x388e36[_0x3bc6f7(0x1b7)], _0x4234e1 => _0x248e8d(false));
+        _0x495a87.on(_0x388e36[_0x3bc6f7(0x1b7)], _0x4234e1 => _0x248e8d(false));
       })]);
     } else {
-      return Promise['race']([new Promise(_0x2394d4 => {
+      return Promise.race([new Promise(_0x2394d4 => {
         const _0x5bab91 = _0x4a4312;
         const _0x1341ad = {
           'pbyCB': function (_0x4b6e7f, _0x47e216) {
@@ -959,17 +959,17 @@ async function _quickTest() {
             return _0x32c944 !== _0x1636d0;
           }
         };
-        _0x40e4c8['on'](_0x2796ed[_0x5bab91(0x1bf)], _0x10348f => {
+        _0x40e4c8.on(_0x2796ed[_0x5bab91(0x1bf)], _0x10348f => {
           const _0x5f4386 = _0x5bab91;
           _0x1341ad[_0x5f4386(0x101)](_0x2394d4, _0x1341ad[_0x5f4386(0x166)](_0x10348f, 0x7f));
         });
       }), new Promise(_0x419e3e => {
-        _0x40e4c8['on'](_0x2796ed['oyahH'], _0x5e15f => _0x419e3e(false));
+        _0x40e4c8.on(_0x2796ed.oyahH, _0x5e15f => _0x419e3e(false));
       })]);
     }
   }));
   const [_0x484f9b, _0x2c8e70, _0x36d5b0, _0x238257, _0x31cd61, _0x31cc06, _0x8cc39b] = _0x5f3acf;
-  const _0x1e3920 = global['support'] = {
+  const _0x1e3920 = global.support = {
     'ffmpeg': _0x484f9b,
     'ffprobe': _0x2c8e70,
     'ffmpegWebp': _0x36d5b0,
@@ -978,7 +978,7 @@ async function _quickTest() {
     'gm': _0x31cc06,
     'find': _0x8cc39b
   };
-  Object['freeze'](global[_0xcf21ef(0x1c8)]);
+  Object.freeze(global[_0xcf21ef(0x1c8)]);
 }
 const actions = [{
   'func': purgeSession,
@@ -990,7 +990,7 @@ for (const action of actions) {
     const _0x287cc7 = {
       'NebXA': _0x26f0f5(0x1a3)
     };
-    if (stopped === _0x287cc7[_0x26f0f5(0x103)] || !conn || !conn['user']) {
+    if (stopped === _0x287cc7[_0x26f0f5(0x103)] || !conn || !conn.user) {
       return;
     }
     await action[_0x26f0f5(0xb3)]();

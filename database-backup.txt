@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 3539,
+      "exp": 3729,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -32,7 +32,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 2,
+      "level": 4,
       "role": "Semi Junior",
       "autolevelup": true
     },
@@ -609,16 +609,16 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 8,
-      "success": 8,
-      "last": 1711274403211,
-      "lastSuccess": 1711274403211
+      "total": 10,
+      "success": 10,
+      "last": 1711316935395,
+      "lastSuccess": 1711316935395
     },
     "owner-sudoall.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1711059259878,
-      "lastSuccess": 1711059259878
+      "total": 3,
+      "success": 3,
+      "last": 1711316948438,
+      "lastSuccess": 1711316948438
     },
     "main-alive.js": {
       "total": 9,
