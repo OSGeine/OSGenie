@@ -102,9 +102,9 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.level))
                     user.level = 0
                 if (!('role' in user))
-                    user.role = 'Tadpole'
+                    user.role = 'Semi Junior'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
             } else {
                 global.db.data.users[m.sender] = {
                     exp: 0,
