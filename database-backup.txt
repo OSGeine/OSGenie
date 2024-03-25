@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 5251,
+      "exp": 11454,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -32,12 +32,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 5,
+      "level": 7,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "96893855160@s.whatsapp.net": {
-      "exp": 0,
+      "exp": 246,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -50,12 +50,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 1,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "201124226580@s.whatsapp.net": {
-      "exp": 1146,
+      "exp": 1362,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -68,12 +68,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 3,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "201050922095@s.whatsapp.net": {
-      "exp": 688,
+      "exp": 767,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -86,12 +86,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 2,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "201111154733@s.whatsapp.net": {
-      "exp": 0,
+      "exp": 72,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -217,7 +217,7 @@
       "autolevelup": true
     },
     "201080979473@s.whatsapp.net": {
-      "exp": 584,
+      "exp": 597,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -230,7 +230,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 2,
       "role": "Semi Junior",
       "autolevelup": true
     },
@@ -449,6 +449,42 @@
       "level": 0,
       "role": "Semi Junior",
       "autolevelup": true
+    },
+    "201550565096@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "oko",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
+    },
+    "201003352544@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "🍃🌹سبحان ربي العظيم 🌹🍃",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
     }
   },
   "chats": {
@@ -609,22 +645,22 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1711358140118,
-      "lastSuccess": 1711358140118
+      "total": 14,
+      "success": 14,
+      "last": 1711365973149,
+      "lastSuccess": 1711365973149
     },
     "owner-sudoall.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1711316948438,
-      "lastSuccess": 1711316948438
+      "total": 4,
+      "success": 4,
+      "last": 1711364005848,
+      "lastSuccess": 1711364005848
     },
     "main-alive.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1711316100074,
-      "lastSuccess": 1711316100074
+      "total": 16,
+      "success": 16,
+      "last": 1711378292555,
+      "lastSuccess": 1711378292555
     },
     "main-list.js": {
       "total": 5,
@@ -709,6 +745,36 @@
       "success": 2,
       "last": 1711358394677,
       "lastSuccess": 1711358394677
+    },
+    "game-math.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1711376613395,
+      "lastSuccess": 1711376613395
+    },
+    "game-wordly.js": {
+      "total": 36,
+      "success": 35,
+      "last": 1711378656607,
+      "lastSuccess": 1711378656607
+    },
+    "sticker-sticker.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711366220854,
+      "lastSuccess": 1711366220854
+    },
+    "tools-readviewonce.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711385679783,
+      "lastSuccess": 1711385679783
+    },
+    "games-lastletter.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1711393172248,
+      "lastSuccess": 1711393130984
     }
   },
   "msgs": {},
