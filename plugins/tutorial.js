@@ -13,7 +13,7 @@ const handler = async (m, { conn }) => {
 };
 
 handler.help = ['help'];
-handler.tags = ['group'];
+handler.tags = ['main'];
 handler.command = ['help'];
 
 export default handler;

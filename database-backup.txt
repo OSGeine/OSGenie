@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 4023,
+      "exp": 5251,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -609,10 +609,10 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 10,
-      "success": 10,
-      "last": 1711316935395,
-      "lastSuccess": 1711316935395
+      "total": 12,
+      "success": 12,
+      "last": 1711358140118,
+      "lastSuccess": 1711358140118
     },
     "owner-sudoall.js": {
       "total": 3,
@@ -649,6 +649,66 @@
       "success": 1,
       "last": 1711356857851,
       "lastSuccess": 1711356857851
+    },
+    "tools-subreddit.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711357421939,
+      "lastSuccess": 1711357421939
+    },
+    "tools-ssweb.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711357427827,
+      "lastSuccess": 1711357427827
+    },
+    "tools-readmore.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1711357538039,
+      "lastSuccess": 1711357538039
+    },
+    "tools-tgsticker.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711357618701,
+      "lastSuccess": 1711357618701
+    },
+    "tools-tts.js": {
+      "total": 8,
+      "success": 8,
+      "last": 1711358077642,
+      "lastSuccess": 1711358077642
+    },
+    "tools-element.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711358241533,
+      "lastSuccess": 1711358241533
+    },
+    "tools-carbon.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711358287180,
+      "lastSuccess": 1711358287180
+    },
+    "tool-ytcomment.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711358337863,
+      "lastSuccess": 1711358337863
+    },
+    "tool-tempmail.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711358371614,
+      "lastSuccess": 1711358371614
+    },
+    "tool-shorturl.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711358394677,
+      "lastSuccess": 1711358394677
     }
   },
   "msgs": {},

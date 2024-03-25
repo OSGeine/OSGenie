@@ -1,7 +1,7 @@
 import uploadImage from '../lib/uploadImage.js'
 import { sticker } from '../lib/sticker.js'
 
-const effects = ['jail', 'gay', 'glass', 'wasted' ,'triggered', 'lolice', 'simpcard', 'horny']
+const effects = ['jail', 'glass', 'wasted' ,'triggered', 'lolice']
 
 let handler = async (m, { conn, usedPrefix, text, command }) => {
 let effect = text.trim().toLowerCase()
@@ -33,6 +33,5 @@ await conn.sendFile(m.chat, apiUrl, 'smaker.png', null, m)
 handler.help = ['smaker']
 handler.tags = ['sticker']
 handler.command = ['stickmaker', 'stickermaker', 'smaker'] 
-handler.diamond = false
 
 export default handler

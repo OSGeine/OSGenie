@@ -23,7 +23,7 @@ say("OSGEINE - V1", {
 say("OSGEINE By DR.OSMAN", {
   'font': "chrome",
   'align': "center",
-  'colors': ["red", "magenta"],
+  'colors': ["red", "blue", "yellow"],
   'background': "transparent",
   'letterSpacing': 0x1,
   'lineHeight': 0x1,
