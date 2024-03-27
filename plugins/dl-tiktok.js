@@ -32,5 +32,6 @@ if (!args[0] && !m.quoted) throw `Give the link of the video Tiktok or quote a t
 handler.help = ['tiktok'].map((v) => v + ' <url>');
 handler.tags = ['downloader'];
 handler.command = /^t(t|iktok(d(own(load(er)?)?|l))?|td(own(load(er)?)?|l))$/i;
+handler.level = 15
 
 export default handler;

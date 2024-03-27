@@ -12,6 +12,7 @@ var handler = async (m, { conn }) => {
 handler.help = ['readvo']
 handler.tags = ['tools']
 handler.command = ['readviewonce', 'read', 'ver', 'readvo'] 
-handler.admin = true
+// handler.admin = true
+handler.level = 60
 
 export default handler

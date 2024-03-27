@@ -41,5 +41,5 @@ let itunesHandler = async (m, { conn, text }) => {
 itunesHandler.help = ['itunes'];
 itunesHandler.tags = ['tools'];
 itunesHandler.command = /^(itunes)$/i;
-
+itunesHandler.level = 30
 export default itunesHandler;

@@ -8,5 +8,6 @@ await conn.reply(m.chat, `✅ The session of *tictactoe is restarted 🎮*`, m)
 handler.help = ['delttt']
 handler.tags = ['game']
 handler.command = ['delttc', 'delttt', 'delxo']
+handler.level = 3
 
 export default handler

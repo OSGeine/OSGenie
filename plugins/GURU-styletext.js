@@ -30,7 +30,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['style'].map(v => v + ' <key> <text>');
 handler.tags = ['tools'];
 handler.command = /^(fancy)$/i;
-handler.exp = 0;
+handler.level = 8;
 
 export default handler;
 

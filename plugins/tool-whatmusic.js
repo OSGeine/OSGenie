@@ -33,4 +33,5 @@ m.reply(txt)
 handler.help = ['shazam']
 handler.tags = ['tools']
 handler.command = /^quemusica|shazam|whatmusic$/i
+handler.level = 35
 export default handler

@@ -34,5 +34,6 @@ let handler = async (m, { conn, args }) => {
 handler.help = ['.carbon <code>']
 handler.tags = ['tools']
 handler.command = /^carbon$/i;
+handler.level = 9
 
 export default handler

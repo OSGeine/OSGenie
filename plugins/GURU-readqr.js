@@ -10,4 +10,5 @@ let anu = await fetch(`https://api.lolhuman.xyz/api/read-qr?apikey=${lolkeysapi}
 let json = await anu.json()
 await m.reply(`*here u go:* ${json.result}`)}
 handler.command = /^(readqr)$/i
+handler.level = 15
 export default handler

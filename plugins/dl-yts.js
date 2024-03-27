@@ -33,5 +33,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['ytsearch'];
 handler.tags = ['downloader'];
 handler.command = ['ytsearch', 'yts'];
+handler.level = 15
 
 export default handler;

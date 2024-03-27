@@ -27,5 +27,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['define <word>'];
 handler.tags = ['tools'];
 handler.command = /^define/i;
+handler.level = 10
 
 export default handler;

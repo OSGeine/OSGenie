@@ -14,5 +14,5 @@ handler.help = ['toav']
 handler.tags = ['fun']
 
 handler.command = ['toav', 'tovn'] 
-
+handler.level = 20
 export default handler

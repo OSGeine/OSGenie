@@ -46,5 +46,6 @@ const handler = async (m, { conn, text }) => {
 handler.help = ['removebg'];
 handler.tags = ['tools'];
 handler.command = /^rmbg|removebg$/i;
+handler.level = 45
 export default handler;
 

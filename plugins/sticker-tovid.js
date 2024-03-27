@@ -23,5 +23,6 @@ let handler = async (m, { conn }) => {
 handler.help = ['tovid']
 handler.tags = ['sticker']
 handler.command = ['tovideo', 'tovid']
+handler.level = 2
 
 export default handler

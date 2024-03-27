@@ -20,6 +20,8 @@ import {
 } from "fs"
 import chalk from "chalk"
 import fetch from "node-fetch"
+import axios from 'axios'
+
 
 import {
     WelcomeLeave
@@ -884,12 +886,3 @@ function copyFiles(source, target) {
         });
     });
 }
-
-// Watch for changes in database.json
-watchFile('database.json', (curr, prev) => {
-    // Copy contents of database.json to database-backup.txt
-    copyFiles('database.json', 'database-backup.txt');
-});
-
-// Initial copy of database.json to database-backup.txt
-copyFiles('database.json', 'database-backup.txt');

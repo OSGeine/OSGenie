@@ -23,6 +23,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['bot'];
 handler.tags = ['fun'];
 handler.command = ['bot', 'alexa'];
+handler.level = 15
 
 export default handler;
 

@@ -6,5 +6,7 @@ conn.sendFile(m.chat, ss, 'error.png', args[0], m)}
 handler.help = ['ss', 'ssf'].map(v => v + ' <url>')
 handler.tags = ['tools']
 handler.command = /^ss(web)?f?$/i
+handler.level = 15
+
 export default handler
 

@@ -1,7 +1,7 @@
 {
   "users": {
     "201003205708@s.whatsapp.net": {
-      "exp": 307,
+      "exp": 699,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -14,12 +14,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 1,
+      "level": 2,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 11454,
+      "exp": 31423,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -32,12 +32,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 7,
-      "role": "Semi Junior",
+      "level": 11,
+      "role": "Semi Senior",
       "autolevelup": true
     },
     "96893855160@s.whatsapp.net": {
-      "exp": 246,
+      "exp": 335,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -55,7 +55,7 @@
       "autolevelup": true
     },
     "201124226580@s.whatsapp.net": {
-      "exp": 1362,
+      "exp": 2147,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -91,7 +91,7 @@
       "autolevelup": true
     },
     "201111154733@s.whatsapp.net": {
-      "exp": 72,
+      "exp": 189,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -104,12 +104,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 1,
       "role": "Semi Junior",
       "autolevelup": true
     },
     "201508510037@s.whatsapp.net": {
-      "exp": 0,
+      "exp": 356,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -122,7 +122,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 1,
       "role": "Semi Junior",
       "autolevelup": true
     },
@@ -145,7 +145,7 @@
       "autolevelup": true
     },
     "966590465317@s.whatsapp.net": {
-      "exp": 0,
+      "exp": 105,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -217,7 +217,7 @@
       "autolevelup": true
     },
     "201080979473@s.whatsapp.net": {
-      "exp": 597,
+      "exp": 798,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -235,7 +235,7 @@
       "autolevelup": true
     },
     "201558754564@s.whatsapp.net": {
-      "exp": 438,
+      "exp": 876,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -248,7 +248,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 2,
       "role": "Semi Junior",
       "autolevelup": true
     },
@@ -415,7 +415,7 @@
       "autolevelup": true
     },
     "201552923172@s.whatsapp.net": {
-      "exp": 0,
+      "exp": 268,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -428,7 +428,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 0,
+      "level": 1,
       "role": "Semi Junior",
       "autolevelup": true
     },
@@ -485,6 +485,78 @@
       "level": 0,
       "role": "Semi Junior",
       "autolevelup": true
+    },
+    "249907182642@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "A",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
+    },
+    "249915500015@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ناصر",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
+    },
+    "966556615696@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "المهلّ",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
+    },
+    "201095071960@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "محمد عبد الظاهر",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
     }
   },
   "chats": {
@@ -529,7 +601,7 @@
       "useDocument": false,
       "viewOnce": false,
       "viewStory": false,
-      "welcome": false,
+      "welcome": true,
       "chatbot": false
     },
     "120363100535956262@g.us": {
@@ -645,22 +717,22 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 14,
-      "success": 14,
-      "last": 1711365973149,
-      "lastSuccess": 1711365973149
+      "total": 23,
+      "success": 23,
+      "last": 1711541471744,
+      "lastSuccess": 1711541471744
     },
     "owner-sudoall.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1711364005848,
-      "lastSuccess": 1711364005848
+      "total": 34,
+      "success": 34,
+      "last": 1711462221718,
+      "lastSuccess": 1711462221718
     },
     "main-alive.js": {
-      "total": 16,
-      "success": 16,
-      "last": 1711378292555,
-      "lastSuccess": 1711378292555
+      "total": 23,
+      "success": 23,
+      "last": 1711536033191,
+      "lastSuccess": 1711536033191
     },
     "main-list.js": {
       "total": 5,
@@ -681,10 +753,10 @@
       "lastSuccess": 1711356075375
     },
     "sticker-wm.js": {
-      "total": 3,
-      "success": 1,
-      "last": 1711356857851,
-      "lastSuccess": 1711356857851
+      "total": 4,
+      "success": 2,
+      "last": 1711404394211,
+      "lastSuccess": 1711404394211
     },
     "tools-subreddit.js": {
       "total": 3,
@@ -759,10 +831,10 @@
       "lastSuccess": 1711378656607
     },
     "sticker-sticker.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1711366220854,
-      "lastSuccess": 1711366220854
+      "total": 6,
+      "success": 6,
+      "last": 1711532886064,
+      "lastSuccess": 1711532886064
     },
     "tools-readviewonce.js": {
       "total": 2,
@@ -775,6 +847,318 @@
       "success": 2,
       "last": 1711393172248,
       "lastSuccess": 1711393130984
+    },
+    "gp-delete.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1711396724691,
+      "lastSuccess": 1711396724691
+    },
+    "dl-mediafire.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711398857935,
+      "lastSuccess": 1711398857935
+    },
+    "dl-play.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1711530563209,
+      "lastSuccess": 1711530563209
+    },
+    "dl-spotify.js": {
+      "total": 4,
+      "success": 3,
+      "last": 1711399746445,
+      "lastSuccess": 1711399746445
+    },
+    "dl-yta.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711399245614,
+      "lastSuccess": 1711399245614
+    },
+    "img-gimage.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711399363938,
+      "lastSuccess": 1711399363938
+    },
+    "img-pinterest.js": {
+      "total": 5,
+      "success": 4,
+      "last": 1711399427921,
+      "lastSuccess": 1711399427921
+    },
+    "dl-twitter.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711399574425,
+      "lastSuccess": 1711399574425
+    },
+    "econ-slot.js": {
+      "total": 4,
+      "success": 0,
+      "last": 1711400568531,
+      "lastSuccess": 0
+    },
+    "tool-audeffect.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711400613277,
+      "lastSuccess": 0
+    },
+    "main-menu.js": {
+      "total": 57,
+      "success": 48,
+      "last": 1711541837939,
+      "lastSuccess": 1711541837939
+    },
+    "GURU-Openai.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1711404220693,
+      "lastSuccess": 1711404220693
+    },
+    "GURU-Bing.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711404232202,
+      "lastSuccess": 1711404232202
+    },
+    "sticker-ttp_attp.js": {
+      "total": 5,
+      "success": 4,
+      "last": 1711404370959,
+      "lastSuccess": 1711404370959
+    },
+    "gp-polling.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711405505992,
+      "lastSuccess": 1711405505992
+    },
+    "owner-exec.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1711483187457,
+      "lastSuccess": 1711483187457
+    },
+    "testing-plugin.js": {
+      "total": 9,
+      "success": 7,
+      "last": 1711459174310,
+      "lastSuccess": 1711459174310
+    },
+    "gp-add.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711459256247,
+      "lastSuccess": 0
+    },
+    "gp-profile.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711459285377,
+      "lastSuccess": 1711459285377
+    },
+    "gp-simulate.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711459359507,
+      "lastSuccess": 1711459359507
+    },
+    "enable.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711459336764,
+      "lastSuccess": 1711459336764
+    },
+    "gp-warning.js": {
+      "total": 5,
+      "success": 3,
+      "last": 1711459549850,
+      "lastSuccess": 1711459549850
+    },
+    "gp-delwarn.js": {
+      "total": 5,
+      "success": 5,
+      "last": 1711459585847,
+      "lastSuccess": 1711459585847
+    },
+    "owner-clearTmp.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711459655133,
+      "lastSuccess": 0
+    },
+    "main-creator.js": {
+      "total": 10,
+      "success": 10,
+      "last": 1711462538568,
+      "lastSuccess": 1711462538568
+    },
+    "owner-addsudo.js": {
+      "total": 12,
+      "success": 10,
+      "last": 1711462131675,
+      "lastSuccess": 1711462124648
+    },
+    "owner-update.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711464890302,
+      "lastSuccess": 1711464890302
+    },
+    "econ-addxp.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711471168352,
+      "lastSuccess": 1711471168352
+    },
+    "gp-totag.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711473306765,
+      "lastSuccess": 1711473306765
+    },
+    "gp-staff.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711473315184,
+      "lastSuccess": 1711473315184
+    },
+    "sticker-toimg.js": {
+      "total": 6,
+      "success": 4,
+      "last": 1711483995714,
+      "lastSuccess": 1711483995714
+    },
+    "tools-removebg.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711473480957,
+      "lastSuccess": 1711473480957
+    },
+    "gp-groupInfo.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711473621922,
+      "lastSuccess": 1711473621922
+    },
+    "audio-toptt.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711483731932,
+      "lastSuccess": 0
+    },
+    "fun-alexa.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711483773157,
+      "lastSuccess": 1711483773157
+    },
+    "fun-question.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711483799998,
+      "lastSuccess": 0
+    },
+    "maker-quote.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711483913606,
+      "lastSuccess": 1711483913606
+    },
+    "dl-gdrive.js": {
+      "total": 4,
+      "success": 2,
+      "last": 1711484134261,
+      "lastSuccess": 1711484134261
+    },
+    "dl-mega.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711484198692,
+      "lastSuccess": 1711484198692
+    },
+    "dl-modapk.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711484220684,
+      "lastSuccess": 0
+    },
+    "dl-play2.js": {
+      "total": 9,
+      "success": 7,
+      "last": 1711530648774,
+      "lastSuccess": 1711530648774
+    },
+    "audio-tomp3.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711530513581,
+      "lastSuccess": 0
+    },
+    "maker-blur.js": {
+      "total": 3,
+      "success": 3,
+      "last": 1711531788398,
+      "lastSuccess": 1711531788398
+    },
+    "sticker-getsticker.js": {
+      "total": 3,
+      "success": 1,
+      "last": 1711532694929,
+      "lastSuccess": 1711532694929
+    },
+    "sticker-smaker.js": {
+      "total": 3,
+      "success": 0,
+      "last": 1711532842909,
+      "lastSuccess": 0
+    },
+    "sticker-trigger.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711532951333,
+      "lastSuccess": 1711532951333
+    },
+    "tool-resize.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711534018084,
+      "lastSuccess": 0
+    },
+    "tools-itunes.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1711534078198,
+      "lastSuccess": 0
+    },
+    "tool-whatmusic.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711534086073,
+      "lastSuccess": 1711534086073
+    },
+    "tools-lyrics.js": {
+      "total": 4,
+      "success": 4,
+      "last": 1711534278114,
+      "lastSuccess": 1711534278114
+    },
+    "tools-randomcourses.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711534129643,
+      "lastSuccess": 1711534129643
+    },
+    "gp-tagall.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1711535266373,
+      "lastSuccess": 1711535266373
     }
   },
   "msgs": {},

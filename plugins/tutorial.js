@@ -3,7 +3,7 @@ const handler = async (m, { conn }) => {
     const asud = setTimeout(() => conn.sendMessage(m.sender, { audio: { url: "./Assets/mp3/alive.mp3" }, mimetype: 'audio/mp4' }), 100)
 
     const firstMsg = setTimeout(() => conn.sendMessage(m.sender, {
-        text: `To view the list of commands that I am running, all you have to do is type *"/list"*.`
+        text: `To view the list of commands that I am running, all you have to do is type *"/menu"*.`
     }), 1100)
     const secMsg = setTimeout(() => conn.sendMessage(m.sender, {
         text: `Please write the command once, and if I do not respond, please inform the developers about it`

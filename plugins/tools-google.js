@@ -73,6 +73,8 @@ handler.help = ["play"];
 handler.tags = ["downloader"];
 handler.command = /^(google)$/i;
 handler.limit = true;
+handler.level = 10
+
 export default handler;
 
 

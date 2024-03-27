@@ -8,5 +8,6 @@ m.reply(teks, null, {mentions: conn.parseMention(teks)})
 handler.help = ['listprem']
 handler.tags = ['main']
 handler.command = ['listprem', 'premlist', 'listpremium'] 
+handler.admin = true
 
 export default handler

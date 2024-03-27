@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['readmore <text1>|<text2>'] 
 handler.tags = ['tools']
 handler.command = ['readmore'] 
-
+handler.level = 12
 export default handler
 
 const more = String.fromCharCode(8206)

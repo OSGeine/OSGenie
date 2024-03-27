@@ -50,5 +50,6 @@ handler.help = ['ppt <rock/paper/scissors>']
 handler.tags = ['game']
 handler.command = ['ppt']
 handler.register = false
+handler.level = 3
 
 export default handler

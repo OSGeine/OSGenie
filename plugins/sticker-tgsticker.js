@@ -26,6 +26,7 @@ handler.help = ['telesticker']
 handler.tags = ['tools']
 handler.command = /^(telestic?ker|tgsticker)$/i
 handler.limit = true
+handler.level = 7
 
 export default handler
 

@@ -22,6 +22,6 @@ ${resulw}`)
 handler.help = ['wikipedia']
 handler.tags = ['tools']
 handler.command = ['wiki','wikipedia'] 
-
+handler.level = 19
 
 export default handler

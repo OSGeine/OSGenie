@@ -27,7 +27,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['tts <lang> <text>']
 handler.tags = ['tools']
 handler.command = ['tts', 'voz'] 
-
+handler.level = 20
 export default handler
 
 function tts(text, lang = 'en-en') {

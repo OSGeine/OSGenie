@@ -54,5 +54,6 @@ function getRandomIndexes(max, count) {
 handler.help = [''].map(v => 'wallpaper' + v + ' <query>');
 handler.tags = ['downloader'];
 handler.command = /^(wall|wallpaper)$/i
+handler.level = 5
 
 export default handler;

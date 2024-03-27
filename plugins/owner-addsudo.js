@@ -23,8 +23,14 @@ let handler = async (m, { conn, text }) => {
         });
     }
 
+    const arrayToFind = [ who.split('@')[0], name, true ];
+    const found = global.owner.some(item => 
+        item.length === arrayToFind.length && 
+        item.every((value, index) => value === arrayToFind[index])
+    );
+
     const outputFilePath = 'number.txt';
-    if (global.owner.includes(who.split('@')[0])) throw 'This person is already an sudo!';
+    if (found) throw 'This person is already an sudo!';
     global.owner.push([who.split('@')[0], name, true]);
     writeNumberToFile(outputFilePath, who.split('@')[0]);
     const caption = `Now @${who.split('@')[0]} has been made an Sudo!`;

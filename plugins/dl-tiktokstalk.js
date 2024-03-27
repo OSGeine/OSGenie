@@ -19,5 +19,6 @@ let handler = async (m, { conn, text, args }) => {
 handler.help = ['tiktokstalk']
 handler.tags = ['downloader']
 handler.command = /^t(tstalk|iktokstalk)$/i
+handler.level = 17
 
 export default handler

@@ -7,4 +7,6 @@ let handler = async (m, { conn, usedprefix }) => {
     handler.help = ['blur','difuminar2']
     handler.tags = ['maker']
     handler.command = /^(blur|difuminar2)$/i
+    handler.level = 6
+    
     export default handler

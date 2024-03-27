@@ -82,6 +82,9 @@ let handler = async (m, { conn, text }) => {
     .setLevel(level, 'Level')
     .setBackground("#3d3d3d")
     .setOverlay('#4b4b4b')
+    .setTextStyles({
+      rank: "ROLE:"
+    })
     .setStyles({
       progressbar: {
         thumb: {
@@ -115,7 +118,7 @@ let handler = async (m, { conn, text }) => {
     format: "png",
   });
 
-  const str = `🏮 *Username:* ${username}\n\n⭐ *Experience:* ${crxp} / ${requiredXpToLevelUp}\n\n🏅 *Rank:* *${role}*`
+  const str = `🏮 *Username:* ${username}\n\n⭐ *Experience:* ${crxp} / ${requiredXpToLevelUp}\n\n🏅 *Role:* *${role}*`
   if(text == "private"){
     try {
       conn.sendFile(who, image, 'rank.jpg', str, m, false, { mentions: [who] });

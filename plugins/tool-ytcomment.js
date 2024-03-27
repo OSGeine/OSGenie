@@ -9,4 +9,6 @@ let handler = async (m, { conn, text }) => {
     handler.help = ['ytcomment <comment>']
     handler.tags = ['maker'] 
     handler.command = /^(ytcomment)$/i
+    handler.level = 6
+
     export default handler

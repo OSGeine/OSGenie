@@ -16,5 +16,6 @@ handler.help = ['tinyurl', 'shorten'].map(v => v + ' <link>');
 handler.tags = ['tools'];
 handler.command = /^(tinyurl|short|acortar|corto)$/i;
 handler.fail = null;
+handler.level = 12
 
 export default handler;

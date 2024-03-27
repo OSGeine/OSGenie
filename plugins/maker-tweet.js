@@ -16,5 +16,6 @@ let handler = async (m, { conn, text }) => {
   handler.help = ['tweet <comment>'];
   handler.tags = ['maker'];
   handler.command = /^(tweet)$/i;
+  handler.level = 6
   
   export default handler;

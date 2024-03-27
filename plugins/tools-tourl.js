@@ -45,5 +45,5 @@ let handler = async (m) => {
 handler.help = ['tourl'];
 handler.tags = ['tools'];
 handler.command = ['url', 'tourl'];
-
+handler.level = 18
 export default handler;

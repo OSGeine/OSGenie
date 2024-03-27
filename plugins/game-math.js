@@ -32,7 +32,7 @@ _📌Example : ${usedPrefix+command} normal_
 handler.help = ['Maths <modes>']
 handler.tags = ['game']
 handler.command = ['maths', 'math'] 
-
+handler.level = 5
 
 let modes = {
     noob: [-3, 3,-3, 3, '+-', 15000, 10],

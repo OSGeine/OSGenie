@@ -33,5 +33,5 @@ await conn.sendFile(m.chat, apiUrl, 'smaker.png', null, m)
 handler.help = ['smaker']
 handler.tags = ['sticker']
 handler.command = ['stickmaker', 'stickermaker', 'smaker'] 
-
+handler.level = 2
 export default handler
