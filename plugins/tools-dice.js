@@ -28,5 +28,6 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.help = ["dice"];
 handler.tags = ["dice"];
 handler.command = ["dice"];
+handler.level = 3
 
 export default handler;

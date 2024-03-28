@@ -63,21 +63,19 @@ setTimeout(resolve, 1000)
   
  
   const infoText = `
-  Hi ${name},
-  乂───『 *U S E R* 』───乂
+  Hi ${name}, ${ucapan()}
+
+  ⊰───『 *U S E R* 』───⊱
   ◈ *Name:* ${name}
   ◈ *Role:* ${role}
   ◈ *Level:* ${level}
   ◈ *Xp:* ${exp}
 
-  乂───『 *I N F O  C M D* 』───乂 
-  ◈ *${totalfeatures}* Commands
-
-  乂───『 *I N F O* 』───乂 
+  ⊰───『 *I N F O* 』───⊱
   ◈ *Reply with the number*
   ◈ *to get respected Menu*
 
-  乂───『 *M E N U* 』───乂
+  ⊰───『 *M E N U* 』───⊱
   ◈ *1.* Bot Menu
   ◈ *2.* Owner Menu
   ◈ *3.* Group Menu
@@ -359,6 +357,7 @@ let levels = `
 let toolsmenu = `
 ✦ ───『 *Tools Menu* 』─── ✦
 
+◈ ${level >= 3 ? "⌈🔓⌋ /dice" : "⌈🔒⌋ ⭐ `Requires a level 3`"}
 ◈ ${level >= 5 ? "⌈🔓⌋ /cal <equation>" : "⌈🔒⌋ ⭐ `Requires a level 5`"}
 ◈ ${level >= 6 ? "⌈🔓⌋ /hdr" : "⌈🔒⌋ ⭐ `Requires a level 6`"}
 ◈ ${level >= 8 ? "⌈🔓⌋ /style <key> <text>" : "⌈🔒⌋ ⭐ `Requires a level 8`"}
@@ -498,7 +497,7 @@ function pickRandom(list) {
  }
  
  function ucapan() {
-  const time = moment.tz("Asia/Kolkata").format("HH")
+  const time = moment.tz("Africa/Cairo").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
    res = "Good Morning 🌄"
