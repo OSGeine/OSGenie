@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 75416,
+      "exp": 77781,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -32,7 +32,7 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 15,
+      "level": 16,
       "role": "Senior",
       "autolevelup": true
     },
@@ -55,7 +55,7 @@
       "autolevelup": true
     },
     "201124226580@s.whatsapp.net": {
-      "exp": 29880,
+      "exp": 30524,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -73,7 +73,7 @@
       "autolevelup": true
     },
     "201050922095@s.whatsapp.net": {
-      "exp": 22318,
+      "exp": 23116,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -86,12 +86,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 9,
-      "role": "Junior",
+      "level": 10,
+      "role": "Semi Senior",
       "autolevelup": true
     },
     "201111154733@s.whatsapp.net": {
-      "exp": 6668,
+      "exp": 6957,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -127,7 +127,7 @@
       "autolevelup": true
     },
     "966590465317@s.whatsapp.net": {
-      "exp": 6870,
+      "exp": 6926,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -361,7 +361,7 @@
       "autolevelup": true
     },
     "201552923172@s.whatsapp.net": {
-      "exp": 16260,
+      "exp": 17082,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -823,10 +823,10 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 49,
-      "success": 49,
-      "last": 1711737079277,
-      "lastSuccess": 1711737079277
+      "total": 53,
+      "success": 53,
+      "last": 1711748771914,
+      "lastSuccess": 1711748771914
     },
     "owner-sudoall.js": {
       "total": 34,
@@ -835,10 +835,10 @@
       "lastSuccess": 1711462221718
     },
     "main-alive.js": {
-      "total": 30,
-      "success": 30,
-      "last": 1711711910157,
-      "lastSuccess": 1711711910157
+      "total": 31,
+      "success": 31,
+      "last": 1711748658884,
+      "lastSuccess": 1711748658884
     },
     "main-list.js": {
       "total": 5,
@@ -1015,10 +1015,10 @@
       "lastSuccess": 0
     },
     "main-menu.js": {
-      "total": 83,
-      "success": 74,
-      "last": 1711711916599,
-      "lastSuccess": 1711711916599
+      "total": 84,
+      "success": 75,
+      "last": 1711748934336,
+      "lastSuccess": 1711748934336
     },
     "GURU-Openai.js": {
       "total": 4,
@@ -1345,10 +1345,10 @@
       "lastSuccess": 1711666794275
     },
     "maker-dogzang.js": {
-      "total": 25,
-      "success": 25,
-      "last": 1711744087439,
-      "lastSuccess": 1711744087439
+      "total": 69,
+      "success": 68,
+      "last": 1711750222796,
+      "lastSuccess": 1711750222796
     }
   },
   "msgs": {},

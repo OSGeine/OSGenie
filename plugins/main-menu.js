@@ -226,6 +226,7 @@ botmenu = `
 let funmenu = `
 ✦ ───『 *Fun Menu* 』─── ✦
 
+◈ ${level >= 5 ? "⌈🔓⌋ /dog" : "⌈🔒⌋ ⭐ `Requires a level 5`"}
 ◈ ${level >= 15 ? "⌈🔓⌋ /bot" : "⌈🔒⌋ ⭐ `Requires a level 15`"}
 
 ⭐ Your current level is: *${level}*
