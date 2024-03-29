@@ -16,7 +16,7 @@ import {
     readFileSync,
     copyFile,
     readFile,
-    writeFile
+    writeFile, watch
 } from "fs"
 import chalk from "chalk"
 import fetch from "node-fetch"
@@ -871,18 +871,27 @@ watchFile(file, async () => {
 })
 
 // Function to copy contents of one file to another
-function copyFiles(source, target) {
+function copyFiles(source, target, callback) {
     readFile(source, 'utf8', (err, data) => {
         if (err) {
             console.error(`Error reading file ${source}: ${err}`);
-            return;
+            return callback(err);
         }
 
         writeFile(target, data, (err) => {
             if (err) {
                 console.error(`Error writing to file ${target}: ${err}`);
-                return;
+                return callback(err);
             }
         });
     });
 }
+
+// Watch for changes in database.json
+watchFile('database.json', (curr, prev) => {
+    // Copy contents of database.json to database-backup.txt
+    copyFiles('database.json', 'database-backup.txt');
+});
+
+// Initial copy of database.json to database-backup.txt
+copyFiles('database.json', 'database-backup.txt');
