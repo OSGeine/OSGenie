@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 71913,
+      "exp": 75416,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -55,7 +55,7 @@
       "autolevelup": true
     },
     "201124226580@s.whatsapp.net": {
-      "exp": 28671,
+      "exp": 29880,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -68,12 +68,12 @@
       "afkReason": "",
       "banned": false,
       "warn": 0,
-      "level": 10,
+      "level": 11,
       "role": "Semi Senior",
       "autolevelup": true
     },
     "201050922095@s.whatsapp.net": {
-      "exp": 19142,
+      "exp": 22318,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -199,7 +199,7 @@
       "autolevelup": true
     },
     "201080979473@s.whatsapp.net": {
-      "exp": 798,
+      "exp": 1011,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -539,6 +539,42 @@
       "level": 0,
       "role": "Semi Junior",
       "autolevelup": true
+    },
+    "201005517108@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "لا اله إلا الله",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
+    },
+    "249915500015@s.whatsapp.net": {
+      "exp": 0,
+      "credit": 0,
+      "bank": 0,
+      "chicken": 0,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "ناصر",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Semi Junior",
+      "autolevelup": true
     }
   },
   "chats": {
@@ -787,10 +823,10 @@
   },
   "stats": {
     "econ-rank.js": {
-      "total": 46,
-      "success": 46,
-      "last": 1711723973355,
-      "lastSuccess": 1711723973355
+      "total": 49,
+      "success": 49,
+      "last": 1711737079277,
+      "lastSuccess": 1711737079277
     },
     "owner-sudoall.js": {
       "total": 34,
@@ -1307,6 +1343,12 @@
       "success": 4,
       "last": 1711666794275,
       "lastSuccess": 1711666794275
+    },
+    "maker-dogzang.js": {
+      "total": 25,
+      "success": 25,
+      "last": 1711744087439,
+      "lastSuccess": 1711744087439
     }
   },
   "msgs": {},

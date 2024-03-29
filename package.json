@@ -51,6 +51,7 @@
         "awesome-phonenumber": "^3.4.0",
         "axios": "^1.6.8",
         "canvacord": "^6.0.2",
+        "canvas": "^2.11.2",
         "cfonts": "^3.1.1",
         "chalk": "^5.1.0",
         "cheerio": "^1.0.0-rc.12",
