@@ -19,7 +19,7 @@
       "autolevelup": true
     },
     "966530740094@s.whatsapp.net": {
-      "exp": 77781,
+      "exp": 77806,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -37,7 +37,7 @@
       "autolevelup": true
     },
     "96893855160@s.whatsapp.net": {
-      "exp": 1007,
+      "exp": 1060,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -55,7 +55,7 @@
       "autolevelup": true
     },
     "201124226580@s.whatsapp.net": {
-      "exp": 30524,
+      "exp": 30585,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -73,7 +73,7 @@
       "autolevelup": true
     },
     "201050922095@s.whatsapp.net": {
-      "exp": 23116,
+      "exp": 23159,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -91,7 +91,7 @@
       "autolevelup": true
     },
     "201111154733@s.whatsapp.net": {
-      "exp": 6957,
+      "exp": 7115,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -217,7 +217,7 @@
       "autolevelup": true
     },
     "201558754564@s.whatsapp.net": {
-      "exp": 2303,
+      "exp": 2319,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -361,7 +361,7 @@
       "autolevelup": true
     },
     "201552923172@s.whatsapp.net": {
-      "exp": 17082,
+      "exp": 17085,
       "credit": 0,
       "bank": 0,
       "chicken": 0,
@@ -1345,10 +1345,10 @@
       "lastSuccess": 1711666794275
     },
     "maker-dogzang.js": {
-      "total": 69,
-      "success": 68,
-      "last": 1711750222796,
-      "lastSuccess": 1711750222796
+      "total": 70,
+      "success": 69,
+      "last": 1711795396742,
+      "lastSuccess": 1711795396742
     }
   },
   "msgs": {},
