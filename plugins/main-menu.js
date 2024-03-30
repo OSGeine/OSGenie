@@ -174,7 +174,6 @@ ownermenu = `
 ◈ /addprem <@tag>
 ◈ /addowner @user
 ◈ /allow <@tag>
-◈ /HEROKU
 ◈ /ban @user
 ◈ /banchat
 ◈ /tx
